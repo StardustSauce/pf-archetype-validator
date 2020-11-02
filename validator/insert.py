@@ -1,54 +1,60 @@
 import csv
+import string
+
 from tabulate import tabulate
 import re
+from validator import FileUtils
 
 
-def sort(e):
-    return e["Archetype Name"]
+class InsertCli:
+    class_name = FileUtils.validate_filename()
+    archetypes = FileUtils.load_archetypes(class_name)
+    header = FileUtils.generate_header(class_name)
+    new_archetypes = []
+
+    @classmethod
+    def run_loop(cls):
+        exit_function = {
+            "restart": cls.run_loop,
+            "finish": cls.save_file,
+            "quit": lambda: print("Cancelling all additions.")
+        }
+
+        new_archetype = {x: "" for x in cls.header}
+        cls.new_archetypes.append(new_archetype)
+        user_input = string.capwords(input("Choose a unique archetype name\n> "))
+        while user_input in [x["Archetype Name"] for x in cls.archetypes] or user_input.lower() in exit_function:
+            user_input = input("Name must not already exist or be \"finish\", \"restart\", or \"quit\". Try again\n> ")
+        new_archetype["Archetype Name"] = user_input
+
+        while user_input not in exit_function:
+            print(tabulate(cls.new_archetypes, headers=cls.header))
+            print("\nSelect a feature to change. Follow it with ' ', X, (X), or C. Submit archetypes with \"finish\".")
+            user_input = input("Type \"restart\" to create another archetype, or \"quit\" to discard changes.\n> ")
+            while True:
+                match = re.search(r"^(.+) ([ XCxc]|(?:\([Xx]\)))$", user_input)
+                if match:
+                    feature_name = string.capwords(match.group(1))
+                    if feature_name in cls.header:
+                        new_archetype[feature_name] = match.group(2).upper()
+                        break
+                    else:
+                        user_input = input(f"{feature_name} is not a class feature. Try again\n> ")
+                elif user_input in exit_function:
+                    break
+                else:
+                    user_input = input("Could not understand input, please try again\n> ")
+        exit_function[user_input]()
+
+    @classmethod
+    def save_file(cls):
+        with open(f"data\\{cls.class_name}.csv", "w") as csvfile:
+            writer = csv.DictWriter(csvfile, [x for x in cls.header], delimiter=",")
+            cls.archetypes += cls.new_archetypes
+            cls.archetypes.sort(key=lambda e: e["Archetype Name"])
+            writer.writeheader()
+            for archetype in cls.archetypes:
+                writer.writerow(archetype)
 
 
-while True:
-    className = input("Choose a class to insert into\n> ").lower()
-    header, archetypes = {}, []
-    try:
-        with open(f"data\\{className}.csv") as csvfile:
-            reader = csv.DictReader(csvfile, delimiter=',')
-            for row in reader:
-                archetypes.append(row)
-            header = reader.fieldnames
-        break
-    except FileNotFoundError:
-        print("Please pick a class that exists.")
-
-newArchetype = dict.fromkeys(header, "")
-userInput = input("Choose a unique archetype name\n> ")
-while userInput in [archetype["Archetype Name"] for archetype in archetypes]:
-    userInput = input("That archetype already exists. Give it another name\n> ")
-newArchetype["Archetype Name"] = userInput
-
-continueLoop = True
-while continueLoop:
-    print(tabulate([newArchetype], headers="keys"))
-    userInput = input("Select a feature to change. Follow it with ' ', X, or C. Type \"quit\" to finish.\n> ")
-    capturedInput = re.findall(r"^(.+) ([ XC])$", userInput)
-    if capturedInput:
-        if capturedInput[0][0] == "Archetype Name":
-            print("You already picked that, don't be weird.")
-        elif capturedInput[0][0] in header:
-            newArchetype[capturedInput[0][0]] = capturedInput[0][1]
-        else:
-            print(f"Name \"{capturedInput[0][0]}\" isn't a match. Try again.")
-    elif userInput == "quit":
-        continueLoop = False
-        archetypes.append(newArchetype)
-    elif userInput == "never mind":
-        continueLoop = False
-
-
-with open(f"data\\{className}.csv", "w") as csvfile:
-    writer = csv.DictWriter(csvfile, header, delimiter=",")
-
-    archetypes.sort(key=sort)
-    writer.writeheader()
-    for archetype in archetypes:
-        writer.writerow(archetype)
+InsertCli.run_loop()

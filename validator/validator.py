@@ -1,7 +1,41 @@
-import csv
 import re
-import string
-from tabulate import tabulate
+import csv
+from os import listdir
+
+
+class FileUtils:
+    @staticmethod
+    def validate_filename():
+        file_list = [x.split('.')[0] for x in listdir("data")]
+        user_input = input("Give a class name\n> ").lower()
+        while user_input not in file_list:
+            user_input = input("Please pick a class that exists.\n> ")
+        return user_input
+
+    @classmethod
+    def load_archetypes(cls, class_name):
+        with open(f"data\\{class_name}.csv") as csvfile:
+            file_reader = csv.DictReader(csvfile, delimiter=',')
+            return [x for x in file_reader]
+
+    @classmethod
+    def generate_header(cls, class_name):
+        with open(f"data\\{class_name}.csv") as csvfile:
+            file_reader = csv.DictReader(csvfile, delimiter=",")
+            header = {}
+            handled = []
+            for field in file_reader.fieldnames:
+                pattern = r"(.+) (\d+)"
+                non_flat = re.findall(pattern, field)
+                if non_flat:
+                    if non_flat[0][0] not in handled:
+                        header[field] = field
+                        handled.append(non_flat[0][0])
+                    else:
+                        header[field] = non_flat[0][1]
+                else:
+                    header[field] = field
+            return header
 
 
 class CustomClass:
@@ -33,66 +67,3 @@ class CustomClass:
             return True
         else:
             return False
-
-
-class Utils:
-    @classmethod
-    def load_archetypes(cls):
-        archetypes = []
-        while True:
-            class_name = input("Give a class name\n> ")
-            try:
-                with open(f"data\\{class_name}.csv") as csvfile:
-                    reader = csv.DictReader(csvfile, delimiter=',')
-                    for row in reader:
-                        archetypes.append(row)
-                break
-            except FileNotFoundError:
-                print("Please pick a class that exists.")
-        return archetypes
-
-    @classmethod
-    def generate_header(cls, sample_archetype):
-        header = {}
-        handled = []
-        for field in sample_archetype:
-            print(field)
-            pattern = r"(.+) (\d+)"
-            nonFlat = re.findall(pattern, field)
-            if nonFlat:
-                if nonFlat[0][0] not in handled:
-                    header[field] = field
-                    handled.append(nonFlat[0][0])
-                else:
-                    header[field] = nonFlat[0][1]
-            else:
-                header[field] = field
-        return header
-
-
-class Cli:
-    archetypes = Utils.load_archetypes()
-    header = Utils.generate_header(archetypes[0])
-
-    @classmethod
-    def run_loop(cls):
-        user_input = "Restart"
-        while user_input == "Restart":
-            user_input = ""
-            custom_class = CustomClass(cls.archetypes)
-            while user_input != "Quit" and user_input != "Restart":
-                print(tabulate(custom_class.compatible_archetypes + [custom_class.features], headers=cls.header))
-                print("\nCustom Class has the archetypes:")
-                for archetype in custom_class.archetypes:
-                    print(f"\t{archetype}")
-                found = None
-                while not found and user_input != "Quit" and user_input != "Restart":
-                    iteration_text = {
-                        None: "\nSelect an archetype to add to your class, or type quit or restart\n> ",
-                        False: "Archetype was not found. Try again\n> "
-                    }
-                    user_input = string.capwords(input(iteration_text[found]))
-                    found = custom_class.add_archetype(user_input)
-
-
-Cli.run_loop()
