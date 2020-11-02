@@ -62,8 +62,12 @@ class CustomClass:
             self.compatible_archetypes = [x for x in self.compatible_archetypes if not x["Archetype Name"] == name]
             for key, value in archetype.items():
                 if value and key != "Archetype Name":
-                    self.features[key] = value
-                    self.compatible_archetypes = [x for x in self.compatible_archetypes if not x[key]]
+                    if value == "(X)" and not self.features[key]:
+                        self.features[key] = value
+                    elif value != "(X)":
+                        self.features[key] = value
+                        new_archetypes = [x for x in self.compatible_archetypes if not x[key] or x[key] == "(X)"]
+                        self.compatible_archetypes = new_archetypes
             return True
         else:
             return False
