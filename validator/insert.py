@@ -22,8 +22,9 @@ class InsertCli:
 
         new_archetype = {x: "" for x in cls.header}
         cls.new_archetypes.append(new_archetype)
-        user_input = string.capwords(input("Choose a unique archetype name\n> "))
-        while user_input in [x["Archetype Name"] for x in cls.archetypes] or user_input.lower() in exit_function:
+        user_input = input("Choose a unique archetype name (Case Sensitive!)\n> ")
+        lower_input = lambda: user_input.lower()
+        while lower_input() in [x["Archetype Name"].lower() for x in cls.archetypes] or lower_input() in exit_function:
             user_input = input("Name must not already exist or be \"finish\", \"restart\", or \"quit\". Try again\n> ")
         new_archetype["Archetype Name"] = user_input
 
@@ -34,12 +35,16 @@ class InsertCli:
             while True:
                 match = re.search(r"^(.+) ([ XCxc]|(?:\([Xx]\)))$", user_input)
                 if match:
-                    feature_name = string.capwords(match.group(1))
-                    if feature_name in cls.header:
+                    feature_input = match.group(1).lower()
+                    feature_name = None
+                    for feature in cls.header:
+                        if feature_input == feature.lower():
+                            feature_name = feature
+                    if feature_name and feature_name != "Archetype Name":
                         new_archetype[feature_name] = match.group(2).upper()
                         break
                     else:
-                        user_input = input(f"{feature_name} is not a class feature. Try again\n> ")
+                        user_input = input(f"{feature_input} is not a class feature. Try again\n> ")
                 elif user_input in exit_function:
                     break
                 else:
