@@ -28,5 +28,4 @@ class Cli:
                     user_input = string.capwords(input(iteration_text[found]))
                     found = custom_class.add_archetype(user_input)
 
-
 Cli.run_loop()

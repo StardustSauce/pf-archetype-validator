@@ -1,0 +1,72 @@
+Archetype Name,Class Skills,Weapon & Armor,Spells,Bardic Knowledge,Bardic Performance,Countersong,Distraction,Fascinate,Inspire Courage +1,Inspire Courage +2,Inspire Courage +3,Inspire Courage +4,Inspire Competence +2,Inspire Competence +3,Inspire Competence +4,Inspire Competence +5,Inspire Competence +6,Suggestion,Dirge of Doom,Inspire Greatness,Soothing Performance,Frightening Tune,Inspire Heroics,Mass Suggestion,Deadly Performance,Cantrips,Versatile Performance,Well-Versed,Lore Master 5,Lore Master 11,Lore Master 17,Jack of All Trades
+Animal Speaker,,,,,,,,X,,,,,X,X,X,X,X,X,,,,,,X,,,,X,,,,
+Arbiter,,,,,,,,,,,,,X,X,X,X,X,,X,,,,,,,,X,X,,,,
+Arcane Duelist,,,,X,,X,,,,,,,,,,,,X,,,,,,X,,,X,X,X,X,X,X
+Arcane Healer,,,,,,,,,,,,,,,,,,,,,,,,,,,X,,X,X,X,
+Archaeologist,,,,,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,,X,X,,,,
+Archivist,,,,,,,,,X,X,X,X,,,,,,X,,,,,,X,,,X,X,X,X,X,X
+Argent Voice,,,,,C,,,X,,,,,,,,,,X,X,,,X,,X,,,X,,,,,
+Arrowsong Minstrel,,C,C,X,,,X,X,,,,,X,X,X,X,X,X,X,,X,,,X,,,C,X,X,X,X,
+Brazen Deceiver,,,,X,,X,X,,,,,,,,,,,,,,,,,,,,X,X,X,X,X,
+Buccaneer,,,,X,,,,,,,,,,,,,,X,,,,,,X,,,,,X,X,X,
+Busker,,,,,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,,,,,,,
+Celebrity,,,,,,,,,X,X,X,X,,,,,,,X,,,,,,,,,,X,X,X,
+Chronicler of Worlds,,,,C,,,,,,,,,,,,,,,,X,,,X,,,,X,X,,,,
+Clockspeaker,,,,,,,,X,,,,,,,,,,,X,,X,X,,,,,,,,,,
+Court Bard,,,,X,,,,,X,X,X,X,X,X,X,X,X,,X,,,X,,,,,,,X,X,X,X
+Court Fool,,,,X,,X,,,,,,,X,X,X,X,X,,,,,,,,,,,,X,X,X,
+Cultivator,C,,C,X,,X,,,,,,,,,,,,,,,,,,,,,,,X,X,X,
+Daredevil,,,,X,,,,,X,X,X,X,,,,,,,,,,,,,,,X,X,X,X,X,
+Demagogue,,,,,,,,,X,,,,,,,,,X,,,,,,X,,,,,X,X,X,
+Dervish Dancer,,C,,X,,,,,,,,,,,,,,X,X,,X,X,,X,X,,X,,X,X,X,
+Dervish of Dawn,,C,,X,C,,,,C,C,C,C,,,,,,,X,C,,,C,,,,,,X,X,X,
+Detective,,,,X,,,,,X,X,X,X,,,,,,,,X,,,X,,,,X,X,,,,
+Dirge Bard,,,,,,,,,,,,,,,,,,,,,,,,,,,X,X,X,X,X,X
+Disciple of the Forked Tongue (Vishkanya),,,,,,,,,X,X,X,X,,,,,,,,X,,,,,,,X,,,,,
+Diva,,,,X,C,,,,,,,,X,X,X,X,X,,X,,,,,,,,,X,X,X,X,
+Dragon Herald (Kobold),,C,,X,,X,,X,,,,,X,X,X,X,X,,,,X,,X,,,,,,X,X,X,
+Dragon Yapper (Kobold),,,,,,,,X,,,,,,,,,,,X,,,,,,,,C,,,,,
+Duettist,,,,X,,,,,,,,,,,,,,,X,,,X,,,,,C,,X,X,X,
+Dwarven Scholar,,C,,,,,,,X,X,X,X,,,,,,X,,,,,,,,,X,,,,,
+Faith Singer,,,,,,,,,,,,,,,,,,,,,,,,,,,X,,,,,
+Fey Courtier,,,,,,,,,,,,,X,X,X,X,X,,,,,,X,,,,X,,,,,
+Fey Prankster,,,,X,,X,,,X,X,X,X,,,,,,,X,,,,,,,,,X,X,X,X,
+Fey World Minstrel,,,C,X,,,,,X,X,X,X,,,,,,,X,,,,,,,,,X,,,,
+Filidh,,C,C,,,,,,X,X,X,X,,,,,,X,X,,,,X,,X,,,,,,,
+Flame Dancer,,,,,,X,,,,,,,X,X,X,X,X,X,X,,,,,,,,,,,,,
+Flamesinger,,,,X,,,,,X,X,X,X,,,,,,,,,,,,,,,X,,X,X,X,
+Fortune-Teller,,,C,,,X,X,,,,,,,,,,,,X,,,,,,,,,X,,,,
+Geisha,,X,,X,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Hoaxer,,,,X,,X,X,,X,X,X,X,X,X,X,X,X,,,,,,,,,,X,X,X,X,X,
+Impervious Messenger,,,,X,,,,X,,,,,,,,,,X,X,,,X,,X,,,,X,,,,
+Juggler,,C,,X,,,,,,,,,,,,,,,,,X,,,,,,X,X,X,X,X,
+Lotus Geisha,,X,,X,,,,,,,,,,,,,,,,,,,,,,,,X,X,X,X,
+Luring Piper,,,,X,C,,,C,,,,,,,,,,,X,,X,,,,,,,,,,,
+Magician,,,,X,,X,,,X,X,X,X,,,,,,,X,,,X,,,,,X,X,X,X,X,X
+Masked Performer,,,,X,,X,,,,,,,X,X,X,X,X,X,,,,,,X,,,X,,X,X,X,
+Mute Musician,,,,X,,,,,,,,,X,X,X,X,X,,,,,X,X,X,,,X,X,X,X,X,X
+Negotiator,,,,X,,,,,X,X,X,X,,,,,,,,X,,,,,,,X,,X,X,X,
+Phrenologist,,,,X,,,,X,X,X,X,X,X,X,X,X,X,,,,,,,,,,,X,,,,X
+Plant Speaker (Leshy),,,,X,,,,,,,,,,,,,,,,X,,,,,,,,X,X,X,X,
+Prankster (Gnome),,,,,,,,X,,,,,,,,,,X,,,,,,X,,,,,X,X,X,
+Provocatuer,,,,X,,,,,,,,,,,,,,X,,,,,,X,,,C,,,,,
+Ringleader (PRG:AG),,,,,C,,,,,,,,,,,,,X,,,X,,,X,,,X,X,,,,
+Ringleader (PRG:UI),,,,,,,,,,,,,X,X,X,X,X,,,,,,,,,,X,X,X,X,X,
+Sandman,,,,X,,,,,X,X,X,X,X,X,X,X,X,X,,X,,,X,X,X,,X,,X,X,X,
+Savage Skald,,,,,,,,X,,,,,,,,,,X,,,X,,,X,,,,,,,,X
+Sea Singer,,,,X,,X,,,,,,,X,X,X,X,X,X,,,,,,X,,,X,X,,,,
+Shadow Puppeteer (Wayang),,,,,,,,,X,X,X,X,X,X,X,X,X,,,,,,,,,,,,,,,
+Silver Balladeer,,,,,,,,,,,,,,,,,,X,,X,,,,X,,,C,X,,,,
+Solacer,C,,,X,,X,,,,,,,,,,,,,,,,,,,,,X,,X,X,X,X
+Songhealer,,,,,,,,,,,,,,,,,,,,,,X,,,X,,X,,,,,
+Sorrowsoul,,,,,C,,,,,,,,,,,,,,,,X,,,,,,X,X,X,X,X,
+Sound Striker,,,,,,,,,,,,,X,X,X,X,X,X,,,,,,,,,,,,,,
+Speaker of the Palatine Eye,C,,C,,,X,,,,,,,,,,,,,,,,,,,,,,,,,,X
+Stonesinger,,,C,,C,X,,,,,,,,,,,,,X,,,,,,,,,,,,,
+Street Performer,,,,X,,X,,,X,X,X,X,X,X,X,X,X,,,X,,,X,,,,,,X,X,X,
+Studious Librarian,,,,,,,X,,,,,,,,,,,X,X,,,,,X,X,,,,,,,X
+Thundercaller,,,,X,,,,,,,,,X,X,X,X,X,X,X,,,X,,X,,,,,X,X,X,
+Voice of the Wild,,,,X,,X,,,,,,,X,X,X,X,X,,X,,,,X,,,,X,,,,,X
+Wasteland Chronicler,,,,X,,,,,,,,,X,X,X,X,X,,,,,,,,,,,,,,,
+Watersinger (Undine),,,C,,,,,X,,,,,X,X,X,X,X,X,,,,,,X,,,,,X,,,
+Wit,,,,X,,X,,,,,,,X,X,X,X,X,,X,,,X,,,,,X,,X,X,X,X

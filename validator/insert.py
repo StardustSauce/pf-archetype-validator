@@ -1,5 +1,4 @@
 import csv
-import string
 
 from tabulate import tabulate
 import re
@@ -10,6 +9,7 @@ class InsertCli:
     class_name = FileUtils.validate_filename()
     archetypes = FileUtils.load_archetypes(class_name)
     header = FileUtils.generate_header(class_name)
+    iterative_fields = FileUtils.find_iterative(header)
     new_archetypes = []
 
     @classmethod
@@ -23,7 +23,7 @@ class InsertCli:
         new_archetype = {x: "" for x in cls.header}
         cls.new_archetypes.append(new_archetype)
         user_input = input("Choose a unique archetype name (Case Sensitive!)\n> ")
-        lower_input = lambda: user_input.lower()
+        def lower_input(): user_input.lower()
         while lower_input() in [x["Archetype Name"].lower() for x in cls.archetypes] or lower_input() in exit_function:
             user_input = input("Name must not already exist or be \"finish\", \"restart\", or \"quit\". Try again\n> ")
         new_archetype["Archetype Name"] = user_input
@@ -36,12 +36,20 @@ class InsertCli:
                 match = re.search(r"^(.+) ([ XCxc]|(?:\([Xx]\)))$", user_input)
                 if match:
                     feature_input = match.group(1).lower()
-                    feature_name = None
+                    feature_found = False
                     for feature in cls.header:
-                        if feature_input == feature.lower():
-                            feature_name = feature
-                    if feature_name and feature_name != "Archetype Name":
-                        new_archetype[feature_name] = match.group(2).upper()
+                        if feature_input == feature.lower() and feature != "Archetype Name":
+                            new_archetype[feature] = match.group(2).upper()
+                            feature_found = True
+                            break
+                    else:
+                        for iterative in cls.iterative_fields:
+                            if feature_input == iterative.lower():
+                                for feature in cls.header:
+                                    if feature.startswith(iterative):
+                                        new_archetype[feature] = match.group(2).upper()
+                                feature_found = True
+                    if feature_found:
                         break
                     else:
                         user_input = input(f"{feature_input} is not a class feature. Try again\n> ")
@@ -53,7 +61,7 @@ class InsertCli:
 
     @classmethod
     def save_file(cls):
-        with open(f"data\\{cls.class_name}.csv", "w") as csvfile:
+        with open(f"data\\{cls.class_name}.csv", "w", newline='') as csvfile:
             writer = csv.DictWriter(csvfile, [x for x in cls.header], delimiter=",")
             cls.archetypes += cls.new_archetypes
             cls.archetypes.sort(key=lambda e: e["Archetype Name"])

@@ -25,7 +25,7 @@ class FileUtils:
             header = {}
             handled = []
             for field in file_reader.fieldnames:
-                pattern = r"(.+) (\d+)"
+                pattern = r"(.+) (\+?\d+)"
                 non_flat = re.findall(pattern, field)
                 if non_flat:
                     if non_flat[0][0] not in handled:
@@ -36,6 +36,17 @@ class FileUtils:
                 else:
                     header[field] = field
             return header
+
+    @classmethod
+    def find_iterative(cls, columns):
+        iterative_fields = []
+        for field in columns:
+            pattern = r"(.+) (\+?\d+)"
+            non_flat = re.findall(pattern, field)
+            if non_flat:
+                if non_flat[0][0] not in iterative_fields:
+                    iterative_fields.append(non_flat[0][0])
+        return iterative_fields
 
 
 class CustomClass:

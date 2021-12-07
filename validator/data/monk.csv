@@ -1,116 +1,58 @@
 Archetype Name,Class Skills,Weapon & Armor,AC Bonus,Bonus Feat 1,Bonus Feat 2,Bonus Feat 6,Bonus Feat 10,Bonus Feat 14,Bonus Feat 18,Flurry of Blows,Unarmed Strike,Stunning Fist,Evasion,Fast Movement,Maneuver Training,Still Mind,Ki Pool,Slow Fall,High Jump,Purity of Body,Wholeness of Body,Improved Evasion,Diamond Body,Abundant Step,Diamond Soul,Quivering Palm,Timeless Body,Tongue of the Sun and Moon,Empty Body,Perfect Self
-
 Black Asp,,,,,,,,,,,,X,,,,X,,(X),(X),,(X),,(X),(X),(X),(X),,(X),(X),
-
 Brazen Disciple,C,,,X,C,X,C,C,C,,,,,,,X,,,,,,,,X,,,,,,X
-
 Contemplative (Dwarf),,,,,,,,,,,,X,,,,,,,,,X,,,,,,,,,
-
 Disciple of Wholeness,,,,,,,,,,,,,,,,,C,,,X,,,X,,X,,,,,
-
 Drunken Master,,,,,,,,,,,,,,,,X,,,,X,,,X,,X,,,,X,
-
 Elemental Monk,,,,X,X,X,X,X,X,,,X,X,,,,C,,,X,,,X,,,,,,,
-
 Far Strike Monk,,C,,C,,C,C,,,C,,X,,,,X,C,,,X,,,X,,,,,,,
-
 Flowing Monk,,,,C,X,C,C,C,C,,,X,,X,,,,,,,,,X,,,X,,,,
-
 Gray Disciple (Duergar),,,,,,X,,,,,,,,,,X,,X,X,,X,,,X,,X,,X,X,
-
 Hamatulatsu Master,,,,,,,,,,,,C,,,,,C,,,X,,,,,,,,,,
-
 Harrow Warden,,C,,,,,,,,,,X,,,,,,,,,,X,X,,,X,,,,
-
 Hellcat,C,X,,C,C,C,C,C,C,,,X,X,X,,X,C,X,,X,X,X,X,,,,,,,
-
 Hungry Ghost Monk,,,,,,,,,,,,X,,,,,,,,X,X,,X,,X,,,,,
-
 Invested Regent,,,,X,(X),(X),(X),(X),(X),,,,,,,,,,,,,,,,,,,,,
-
 Ironskin Monk (Hobgoblin),,,,C,C,C,C,C,C,,,,X,X,,,C,X,X,,,X,,,,,,X,,X
-
 Karmic Monk,C,,,,,,,,,,,X,,,,X,C,C,,,,X,,,,,,,,C
-
 Kata Master,,,,,,,,,,,,X,,,,X,C,,,,X,,,,,X,,,,
-
 Ki Mystic,,,,,,,,,,,,,,,,X,C,,,X,,,X,,X,,,,X,
-
 Lifting Hand,,,,C,C,C,X,C,C,,,X,,,,,,,,,,,,X,,,,,,
-
 Maneuver Master,,,,C,C,C,C,C,C,X,,,,,,X,,X,,X,,,X,,,X,,,,
-
 Martial Artist,,,,,,,,,,,,,,,,X,X,X,,X,X,,X,,X,C,X,X,X,X
-
 Master of Many Styles,,,,X,X,X,X,X,X,X,,,,,,,,,,,,,,,,,,,,X
-
 Menhir Guardian,,X,,,,,,,,C,X,X,,,,,C,,X,,,,,,,X,,,,
-
 Monk Vows,,,,,,,,,,,,,,,,X,,,,,,,,,,,,,,
-
 Monk of the Empty Hand,,X,,,,C,C,C,C,C,,,,,,X,C,,,X,,,X,,,,,,,
-
 Monk of the Four Winds,,,,,,,,,,,,X,,,,,,,,,,,,X,,,X,,,X
-
 Monk of the Healing Hand,,,,,,,,,,,,,,,,,,,,,X,,X,,,X,,,,X
-
 Monk of the Iron Mountain,,,,,,,,,,,,,X,,,,,X,X,,,X,,,,,,X,,
-
 Monk of the Lotus,,,,,,,,,,,,X,,,,,,,,,,,,X,,X,,X,,
-
 Monk of the Mantis,,,,,X,X,X,X,X,,,,,,,,,,,,X,,X,,X,C,,,,
-
 Monk of the Seven Winds,,,,,,,,,,,,X,,,X,,,,,,,,,X,,X,,,,
-
 Nimble Guardian (Catfolk),,,,,,,,,,,,,X,,,X,,,,X,X,X,,,,,,,,
-
 Nornkith,,,,X,,,X,,,,,X,,,,,,,,X,,,,,X,X,,,X,X
-
 Perfect Scholar,C,,,,,,,,,,,,,,,X,,X,,,,,,,,,,X,,C
-
 Qinggong Monk,,,,,,,,,,,,,,,,,,(X),(X),,(X),,(X),(X),(X),(X),(X),(X),(X),(X)
-
 Sage Counselor,C,,,X,X,X,X,,,C,,,,,,,C,,,,,,,,,,,,,
-
 Scaled Fist,,,,C,C,C,C,C,C,,,,,,X,X,,,,,,,,,,X,,,,
-
 Scarred Monk,,,,,,,,,,,,,,,,,C,,X,,X,,,X,,,,,X,
-
 Sensei,C,,,,X,X,,,X,X,,,X,X,,,,,,,,X,,,,,,,,
-
 Serpent Fire Adept,C,,,X,X,X,X,X,X,,,X,,,,,,X,X,,X,,,,,,,,,
-
 Sin Monk,,,,,,,,,,,,,,,,,X,,C,,X,,,X,,,,,X,X
-
 Softstrike Monk,,X,,,,X,X,,,,C,,,,,,,,,,C,,,,,C,,,C,
-
 Sohei,C,X,,C,C,C,C,C,C,C,X,X,,X,,,,X,,X,,,X,X,,X,X,X,,
-
 Soul Shepherd,,,,,,,,,,,,X,X,,,,,,,,,X,,X,,X,,,,
-
 Spirit Master,,,,,,,,,,,,,,,X,X,,,,X,X,,,,,X,,,X,X
-
-"Student of Stone (Oread)",,,,C,C,C,C,C,C,,,,X,X,,,,,X,,,X,,X,,,,,,
-
+Student of Stone (Oread),,,,C,C,C,C,C,C,,,,X,X,,,,,X,,,X,,X,,,,,,
 Terra-Cotta Monk,,,,,,,,,,,,,X,,,,,,X,,,X,,X,,X,,,X,
-
 Tetori,,,,X,X,X,X,X,X,X,C,,,,,,,X,X,,,X,,X,X,,X,X,X,
-
 Treetop Monk (Vanara),,,,,,,,,,,,,,,,X,,,,X,,,,X,,,,,,
-
 Underfoot Adept (Halfling),,,,X,,,,,,,,X,,,,,,,X,,,,,,,,,,,
-
 Wanderer (Human),X,,,X,,,,,,,,,,,,X,,X,X,,X,,,X,X,,,,,
-
 Wasteland Meditant,,,,,,,,,,,,X,X,,,,,X,,,,X,,,,X,,,,
-
 Water Dancer,,,,X,X,X,X,X,X,X,,X,X,,,,,X,,,,X,,X,,X,,,,
-
 Weapon Adept,,,,,,,,,,,,X,X,,,,,,,,,X,,,,,X,,,X
-
 Wildcat,,,,,,,,,,,,,,,,X,X,X,X,,,X,,X,X,,,,X,
-
 Windstep Master,,,,,,,,,,,,X,,,,,C,X,,,,,,,,,,,,
-
 Zen Archer,,C,,X,X,X,X,X,X,C,,X,X,,X,X,C,,,X,,X,X,,,,,X,,
-
