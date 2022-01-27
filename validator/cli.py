@@ -4,6 +4,7 @@ import string
 
 
 class Cli:
+    FileUtils.set_cwd()
     class_name = FileUtils.validate_filename()
     archetypes = FileUtils.load_archetypes(class_name)
     header = FileUtils.generate_header(class_name)

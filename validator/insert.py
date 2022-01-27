@@ -1,11 +1,12 @@
 import csv
 
+import re, os
 from tabulate import tabulate
-import re
 from validator import FileUtils
 
 
 class InsertCli:
+    FileUtils.set_cwd()
     class_name = FileUtils.validate_filename()
     archetypes = FileUtils.load_archetypes(class_name)
     header = FileUtils.generate_header(class_name)
@@ -61,7 +62,8 @@ class InsertCli:
 
     @classmethod
     def save_file(cls):
-        with open(f"data\\{cls.class_name}.csv", "w", newline='') as csvfile:
+        path = os.path.join("data", cls.class_name + ".csv")
+        with open(path, "w", newline='') as csvfile:
             writer = csv.DictWriter(csvfile, [x for x in cls.header], delimiter=",")
             cls.archetypes += cls.new_archetypes
             cls.archetypes.sort(key=lambda e: e["Archetype Name"])

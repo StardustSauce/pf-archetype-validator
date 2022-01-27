@@ -1,12 +1,18 @@
 import re
 import csv
-from os import listdir
+import os
+from inspect import getsourcefile
 
 
 class FileUtils:
     @staticmethod
+    def set_cwd():
+        path = os.path.dirname(getsourcefile(lambda:0))
+        os.chdir(path)
+
+    @staticmethod
     def validate_filename():
-        file_list = [x.split('.')[0] for x in listdir("data")]
+        file_list = [x.split('.')[0] for x in os.listdir("data")]
         user_input = input("Give a class name\n> ").lower()
         while user_input not in file_list:
             user_input = input("Please pick a class that exists.\n> ")
@@ -14,13 +20,15 @@ class FileUtils:
 
     @classmethod
     def load_archetypes(cls, class_name):
-        with open(f"data\\{class_name}.csv") as csvfile:
+        path = os.path.join("data", class_name + ".csv")
+        with open(path) as csvfile:
             file_reader = csv.DictReader(csvfile, delimiter=',')
             return [x for x in file_reader]
 
     @classmethod
     def generate_header(cls, class_name):
-        with open(f"data\\{class_name}.csv") as csvfile:
+        path = os.path.join("data", class_name + ".csv")
+        with open(path) as csvfile:
             file_reader = csv.DictReader(csvfile, delimiter=",")
             header = {}
             handled = []
