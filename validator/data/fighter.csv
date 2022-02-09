@@ -1,0 +1,71 @@
+Archetype Name,Class Skills,Skill Ranks,Weapon & Armor,Bonus Feat 1,Bonus Feat 2,Bonus Feat 4,Bonus Feat 6,Bonus Feat 8,Bonus Feat 10,Bonus Feat 12,Bonus Feat 14,Bonus Feat 16,Bonus Feat 18,Bonus Feat 20,Bravery,Armor Training 1,Armor Training 2,Armor Training 3,Armor Training 4,Weapon Training 1,Weapon Training 2,Weapon Training 3,Weapon Training 4,Armor Mastery,Weapon Mastery
+Aerial Assaulter,C,,,,X,,,,,X,,,,,X,,,,,,,,,X,X
+Airborne Ambusher (Strix),C,,C,,,,,,,,,,,,X,,,,,X,X,X,X,,
+Aquanaut,,,C,,,,,,,,,,,,X,X,X,X,X,X,X,X,X,X,C
+Archer,,,,,,,,,,,,,,,X,X,X,X,X,X,X,X,X,X,C
+Armiger,C,C,,X,C,C,C,C,X,C,C,C,C,C,X,,,,,,,,,,
+Armor Master,,,,,,,,,,,,,,,X,,,,,X,X,X,X,X,X
+Blackjack,,,,,,X,,X,,X,,X,,,X,,,,,,,,,,
+Border Defender,,,,,,,,,,,,,,,,X,X,X,X,,,,,,
+Brawler,,,,,,,,,,,,,,,,X,X,X,X,X,X,X,X,X,C
+Buckler Duelist,,,,,,,,,,,,,,,X,X,X,X,,X,,,,,
+Cad,X,,C,,,,,,,,,,,,X,X,X,X,X,X,X,X,X,,X
+Cavern Sniper (Drow),C,,,X,,X,,,,,,,,,X,,,,,X,X,X,X,,C
+Child of War,C,C,C,X,X,,,X,,X,,X,,X,,C,C,C,C,X,X,X,X,,
+Corsair,,,,,X,,X,,,,,,,,,X,X,X,X,C,C,C,C,,
+Crossbowman,,,,,,,,,,,,,,,,X,X,X,X,X,X,X,X,X,C
+Cyber-Soldier,,,,,,,,,,,,,,,,,X,,X,X,,,,X,
+Defender,,,,,,,X,X,X,,,,,,,X,X,X,X,,,,,,
+Dervish of Dawn,,,,,,,,,,,,,,,,X,X,X,X,,,,,,
+Dragonheir Scion,C,,,X,,X,X,,,,,,,,X,X,X,X,X,,,,,X,X
+Dragoon,,,C,X,,,,,,,,,,,,,X,X,X,C,X,X,X,,C
+Drill Sergeant,,,,,,,,,,,,,,,X,,,,,X,X,X,X,,
+Eldritch Guardian,C,,,X,X,,,,,,,,,,X,,,,,,,,,,
+Foehammer (Dwarf),,,,,,,,,,,,,,,,X,X,X,X,C,X,X,X,X,C
+Free Hand Fighter,,,,,,,,,,,,,,,X,X,X,X,X,X,X,X,X,X,
+Free-Style Fighter,C,,,X,,,X,,X,X,,,,,,X,X,X,X,X,X,X,X,,X
+Gladiator,C,,C,,,,,,,,,,,,X,,,,,,,,,,
+High Guardian,C,,,X,X,X,,,,,,,,,X,,,,,,,,,,
+Learned Duelist,,,C,X,,,,,,,,,,,,,,,,X,X,X,X,,
+Lore Warden (Adventurer’s Guide),C,C,C,,X,,,,,,,,,,X,X,X,X,X,,,,,X,
+Lore Warden (PFS Field Guide),C,C,C,,,,,,,,,,,,X,X,X,X,X,,,,,X,
+Lore Warden (PFSFG),,,X,,,,,,,,,,,,X,X,X,X,X,,,,,X,
+Lore Warden (PRG:AG),,,X,,,,,,,,,,,,,X,X,X,X,,,,,X,
+Martial Master,,,,,,,,,,,,,,,,,,,,X,X,X,X,,X
+Mobile Fighter,,,,,,,,,,,,,,,X,,,X,X,X,X,X,X,,X
+Mutation Warrior,,,,,,,,,,,,,,,,X,X,X,X,,,,,X,
+Opportunist Fighter,C,,,X,,X,,X,,X,,X,,X,X,,,,,X,,,,,
+Pack Mule,,C,,X,,,,,,,,,,,X,X,X,X,X,,,,,X,
+Phalanx Soldier,,,,,,,,,,,,,,,X,X,X,X,X,X,X,X,X,,X
+Polearm Master,,,,,,,,,,,,,,,X,X,X,X,X,X,X,X,X,X,C
+Relic Master,C,,,,,,,,,,,,,,,X,X,X,X,X,X,X,X,X,
+Roughrider,,,,,,,,,,,,,,,X,X,X,X,X,X,X,X,X,X,
+Savage Warrior,,,,,,,,,,,,,,,X,,,,,X,X,X,X,,X
+Scrapper,,,,,,,,,,,,,,,,X,X,X,X,X,,,,,
+Seasoned Commander,C,C,C,X,,,,,,,,,,,,X,,X,X,X,X,X,X,,
+Sensate,X,,X,,,,,,,,,,,,X,X,X,X,X,X,X,X,X,X,X
+Shielded Fighter,,,,,,,,,,,,,,,,X,X,X,X,X,X,X,X,X,X
+Siegebreaker,,,,X,X,,,X,,,,,,,X,,,,,,,,,,X
+Skirmisher,X,X,X,,X,,,,,,,,,,X,X,X,X,X,,,,,X,
+Spear Fighter,C,,C,,,,,,,,,,,,X,X,X,X,X,,,,,X,
+Steelbound Fighter,,,,X,,,,,,,,,,,,,,,,X,X,X,X,,
+Swarm Fighter (Kobold),C,,,X,C,,C,,C,,C,,C,,X,,,,,X,X,X,X,,X
+Swordlord,,,,,,,,,,,,,,,,X,X,X,X,X,,,,,
+Tactician,C,X,C,X,C,C,C,C,C,C,C,C,C,C,X,,,X,,X,,,,,
+Thunderstriker,,,,,,,,,,,,,,,,X,X,X,X,,,X,X,,
+Titan Fighter,,,,X,,,,,,,,,,,,X,X,X,X,X,X,X,X,,
+Tower Shield Specialist,,,,,,,,,,,,,,,X,C,C,C,C,X,X,X,X,,X
+Trench Fighter,,,,,,,,,,,,,,,,X,X,X,X,,,,,,
+Tribal Fighter,,,,X,,,,,,,,,,,,,,,,C,C,C,C,,
+Two-Handed Fighter,,,,,,,,,,,,,,,X,X,X,X,X,C,C,C,C,X,
+Two-Weapon Warrior,,,,,,,,,,,,,,,,X,X,X,X,X,X,X,X,X,
+Unarmed Fighter,,,X,X,,,,,,,,,,,X,X,X,X,X,X,X,X,X,X,C
+Unbreakable,,,C,X,,,,,,,,,,,X,,,X,X,X,X,X,X,,X
+Vengeful Hunter,C,,C,,,,,,,,,,,,X,,,,,X,X,X,X,,X
+Venomblade (Nagaji),,,,X,,,X,,,X,,,,,X,,,,,,,,,,
+Viking,,,C,,,,C,C,C,C,C,C,C,C,X,X,X,X,X,X,X,X,X,,
+Viking (PPC:PotN),,,C,,,,,,,,,,,,X,X,X,X,X,X,X,X,X,,
+Viking (PRG:UW),,,C,C,C,C,C,C,C,C,C,C,C,C,X,X,X,X,X,X,X,X,X,,
+Weapon Bearer Squire,,,,X,X,,,,,,,,,,,X,,,,,,,,,
+Weapon Master,,,,,,,,,,,,,,,X,X,X,X,X,X,X,X,X,,
+Gloomblade,C,,C,,,,,,,,,,,,,X,X,X,X,C,C,C,C,,

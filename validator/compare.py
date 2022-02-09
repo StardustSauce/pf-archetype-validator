@@ -16,11 +16,10 @@ missing_names = []
 for name in input_names:
   if name not in stored_names:
     missing_names.append(name)
-    print(f"\t{name}")
 
 if missing_names:
   print("Missing Names:")
   for name in missing_names:
-    print(name)
+    print("\t" + name)
 else:
   print("This class is complete!")
