@@ -1,0 +1,40 @@
+Archetype Name,Class Skills,Weapon & Armor,Spells,Orisons,Domain,Judgment 1,Judgment 4,Judgment 7,Judgment 10,Judgment 13,Judgment 16,Judgment 19,Monster Lore,Stern Gaze,Cunning Initiative,Detect Alignment,Track,Solo Tactics,Teamwork Feat 3,Teamwork Feat 6,Teamwork Feat 9,Teamwork Feat 12,Teamwork Feat 15,Teamwork Feat 18,Bane,Discern Lies,Second Judgment,Stalwart,Greater Bane,Exploit Weakness,Third Judgment,Slayer,True Judgment
+Abolisher,,,,,C,,,,,,,,,X,,X,,,,,,,,,C,X,,,,,,,
+Cloaked Wolf,C,,,,,,,,,,,,X,X,X,,,X,X,X,X,X,X,X,,,,,,,,,
+Cold Iron Warden,,,,,,,,,,,,,,,,,X,X,X,X,X,X,X,X,C,X,,,,,,,
+Exarch (Dwarf),,,C,,,,,,,,,,X,,,X,,,,,,,,,C,,X,,X,,X,,
+Exorcist,,,,,,,,,,,,,,,,,,,,,,,,,,,X,,,,X,X,X
+Expulsionist,,,,,X,,,,,,,,X,,,,,,,,,,,,,X,,,,,,,
+Faith Hunter,,,,,X,C,C,C,C,C,C,C,,,,X,,,,,,,,,C,,,,,,,,
+Green Faith Marshal,,,,,C,,,,,,,,X,X,,,,,,,,,,,,X,,X,,,,,
+Green Marshal,,,,,C,,,,,,,,X,X,,,,,,,,,,,,X,,X,,,,,
+Heretic,,,,,,C,C,C,C,C,C,C,X,,,,,,,,,,,,,,,,,,,,
+Hexenhammer,,,C,,C,,,,,,,,X,X,X,,,X,X,X,X,X,X,X,,,,,,,,,
+Iconoclast,,,,,,,,,,,,,X,,,X,,,,,,,,,,X,,,,X,,,X
+Immolator (Ifrit),,,,,,C,C,C,C,C,C,C,,,,,,,,,,,,,X,,,,X,,,,C
+Infiltrator,,,,,,,,,,,,,X,X,,,X,,,,,,,,,X,,,,,,,
+Keeper of Constructs,,,,,X,,,,,,,,X,X,,,,,,,,,,,,,,,,X,,,
+Keeper of the Current,,,C,,,,,,,,,,,,,,X,,,,,,,,,X,,,,,,,
+Kinslayer (Dhampir),,,,,,C,C,C,C,C,C,C,,,,X,,,(X),(X),(X),(X),(X),(X),,,,,,,,,
+Living Grimoire,,,C,C,,X,X,X,X,X,X,X,X,,X,,,,,,,,,,X,,X,,X,,X,,X
+Monster Tactician,,,,,,X,X,X,X,X,X,X,,,,,,,,,,,,,,X,X,,,,X,X,X
+Oathkeeper,,,,,,,,,,,,,X,,,,X,,,,,,,,,,,,,,,,
+Preacher,,,,,,,,,,,,,,,,,,X,(X),(X),(X),(X),(X),(X),,,,,,,,,
+Ravener Hunter,,,C,,X,,,,,,,,,,,,,C,X,,,,,,,,,,,,,,
+Reaper of Secrets,,,,,,,,,,,,,X,X,,,,X,,,,,,,,,,,,,,,
+Relic Hunter,,,C,,X,X,X,X,X,X,X,X,,,,,,,,,,,,,X,,X,,X,,X,,
+Royal Accuser,C,,,,,,,,,,,,,X,,X,,X,X,X,X,X,X,X,,,,,,,,,
+Sacred Huntsmaster,,,,,,X,X,X,X,X,X,X,,,,,,,C,C,C,C,C,C,,,X,,,,X,X,X
+Sanctified Slayer,,,,,,X,X,X,X,X,X,X,,,,,,,,,,,,,,,X,,,,X,X,X
+Secret Seeker,,,,,,,,,,,,,X,,,,,,,,,,,,X,,,,X,X,,,
+Sin Eater,,,,,X,,,,,,,,,,,,,,,X,,,,,,,,,,X,,,
+Spellbreaker,,,,,,,,,,,,,X,,,,,X,X,X,X,X,X,X,,,,,,,,,X
+Suit Seeker,,,,,,C,C,C,C,C,C,C,,,,C,,,,,,,,,,,C,,,,C,,C
+Sworn of the Eldest,,,,,C,,,,,,,,X,X,,,,,X,X,X,X,X,X,,,,,,,,,
+Tactical Leader,,,,,,,,,,,,,,X,,,,X,X,X,X,X,X,X,,,,,,X,,,
+Traceless Operative,,,,,,,,,,,,,X,X,,,X,,,,,,,,X,,,,X,,,,
+Umbral Stalker,C,,,,C,,,,,,,,,X,,,,,,,,,,,,,,,,X,,,
+Urban Infiltrator,C,,,,,,,,,,,,X,,,,,,,,,,,,,,,X,,,,,
+Vampire Hunter,,,,,,C,C,C,C,C,C,C,,,,X,,,,,,,,,C,,,,,,,,
+Vigilant Defender,,,,,,C,C,C,C,C,C,C,,X,,,,,,,,,,,,,,,,X,,,C
+Witch Hunter,,,,,,,,,,,,,X,,,X,X,,,,,,,,,X,,,,X,,,X
