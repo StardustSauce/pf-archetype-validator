@@ -2,8 +2,12 @@ Archetype Name,Class Skills,Weapon & Armor,Spells,Cantrips,Eidolon,Life Link,Sum
 Blood God Disciple (Half-orc),,,,,,,X,X,X,X,X,X,X,X,X,,,,,,,,,,,
 Blood Summoner,,,,,,,,,,,,,,,,,,X,,X,,X,,X,,
 Broodmaster,,,,,X,X,,,,,,,,,,,X,X,X,X,,X,X,X,,
+Construct Caller (Unchained),,,,,C,,X,,,,,,,,,,,,,,,,,,,
 Counter-Summoner,,,,,,,X,X,X,X,X,X,X,X,X,X,X,,,,X,,,,X,
+Devil Binder (Unchained),,,,,C,,X,,,,,,,,,,X,X,X,X,,X,,X,,X
+Devil Impostor (Unchained),C,,,,C,,,,,,,,,,,,X,X,,X,,X,,,,
 Evolutionist,,,,,,,,,,,,,,,,,,,X,X,,X,,,,
+Fey Caller (Unchained),C,,,,,,X,X,X,X,X,X,X,X,X,X,,,,,,,,,,
 First Worlder,,,,,C,,X,X,X,X,X,X,X,X,X,X,,,,,,,,,,
 God Caller,C,,,,,C,,,,,,,,,,,,,,X,X,,,,X,X
 Leshy Caller,,,,,C,,C,C,C,C,C,C,C,C,C,,,,,,,,,,,
@@ -13,6 +17,7 @@ Naturalist,,,,,,,X,X,X,X,X,X,X,X,X,,,X,,,X,X,X,,X,
 Pyroclast,,,X,,,,,,,,,,,,,,,,X,X,,,,,,
 Shadow Caller (Fetchling),C,,,,C,,C,C,C,C,C,C,C,C,C,,,,,,,,,,,
 Shaitan Binder (Oread),,,,,C,,,,,,,,,,,,,X,,,X,X,,,X,X
+Soulbound Summoner (Unchained),,,,,C,C,X,X,X,X,X,X,X,X,X,X,,,,,,,,,,
 Spirit Summoner,,,,,X,,X,X,X,X,X,X,X,X,X,X,,,X,X,X,,,X,,
 Storm Caller,,,,,C,,,C,C,C,C,C,C,C,C,,,X,X,X,,X,,,,
 Story Summoner,,,,,C,,,,,,,,,,,,X,,,X,,,,,,

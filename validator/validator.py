@@ -12,10 +12,23 @@ class FileUtils:
 
     @staticmethod
     def validate_filename():
+        no_archetypes = ["unchained barbarian", "unchained rogue"]
         file_list = [x.split('.')[0] for x in os.listdir("data")]
-        user_input = input("Give a class name\n> ").lower()
-        while user_input not in file_list:
-            user_input = input("Please pick a class that exists.\n> ")
+        user_input = input("Give a class name\n> ")
+        while True:
+            user_input = user_input.lower()
+            if user_input in no_archetypes:
+                user_input = input(f"{user_input} has no archetypes.\n> ")
+            elif user_input == "vampire hunter":
+                user_input = input("What's wrong with you?\n> ")
+            elif user_input == "unchained summoner":
+                print("Unchained Summoner archetypes have been included in summoner. Launching Summoner...")
+                user_input = "summoner"
+                break
+            elif user_input not in file_list:
+                user_input = input(f"{user_input} is not a known class.\n> ")
+            else:
+                break
         return user_input
 
     @classmethod
