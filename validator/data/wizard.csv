@@ -1,57 +1,57 @@
-Archetype Name,Class Skills,Skill Ranks per Level,Weapon & Armor,Spells,Cantrips,Spellbooks,Bonus Languages,Arcane Bond,Arcane School,Scribe Scroll,Bonus Feat 5,Bonus Feat 10,Bonus Feat 15,Bonus Feat 20
-Alchemical Affinity,,,,,,,,,,,(X),(X),(X),(X)
-Arcane Bomber,,,,,X,,,X,X,,,,,
-Arcane Builder,,,,,,,,,,,(X),(X),(X),(X)
-Arcane Physician,,,,,,,,,X,X,,,,
-Arcane Warden,C,,,,,,,,C,X,X,X,X,X
-Balanced Summoning,,,,,,,,,,,(X),(X),(X),(X)
-Beyond Morality,,,,,,,,,,,,(X),(X),(X)
-Bonded Wizard,,,,,,,,C,,X,X,X,X,
-Chronomancer,,,,,,,,X,,,,X,X,X
-Clocksmith,,,,,,,,C,,X,X,X,X,X
-Creative Destruction,,,,,,,,,,,(X),(X),(X),(X)
-Cruoromancer (Dhampir),,,,,,,,X,,,X,X,X,X
-Defensive Feedback,,,,,,,,,,,(X),(X),(X),(X)
-Elder Mythos Scholar,,,,,,C,,C,C,X,X,,X,
-Exploiter Wizard,,,,,,,,X,X,,,,,
-Familiar Adept,,,,,,C,,C,C,X,X,X,,
-Fast Study,,,,,,,,,,,(X),(X),(X),(X)
-Feral Speech,,,,,,,,,,,(X),(X),(X),(X)
-Fey Caller,,,,,,,,C,X,X,,,,
-Forest’s Blessing,,,,,,,,,,,(X),(X),(X),(X)
-Golem Constructor,,,,,,,,,,,,(X),(X),(X)
-Hallowed Necromancer,,,,C,,,,C,C,X,X,X,X,
-Idealize,,,,,,,,,,,,(X),(X),(X)
-Immortality,,,,,,,,,,,,,,(X)
-Infectious Charms,,,,,,,,,,,,,(X),(X)
-Instructor,,,,,,,,X,,,C,C,C,C
-Ioun Bond,,,,,,,,,,,(X),(X),(X),(X)
-Knowledge is Power,,,,,,,,,,,(X),(X),(X),(X)
-Multimorph,,,,,,,,,,,(X),(X),(X),(X)
-Opposition Research,,,,,,,,,,,,(X),(X),(X)
-Pact Wizard (FF),,,,,,,,C,C,,,,,
-Pact Wizard (HH),,,,C,,,,,,X,X,X,X,X
-Poleiheira Adherent,,,,,,,,X,X,,,,,
-Primalist,,,,,,,,X,,,X,X,,
-Resilient Illusions,,,,,,,,,,,,(X),(X),(X)
-Runesage,,,,,,,,C,X,,,,,
-Scroll Scholar,,,,C,,,,,C,,X,,,
-Scrollmaster,,,,,,,,X,,,,X,,
-Shadowcaster,,,,,,,,X,,,X,X,,
-Siege Mage,,,,,X,,,X,X,X,,,,
-Spell Sage,,,,,,,,X,X,,,,,
-Spellbinder (Elf),,,,,,,,X,,,,,,
-Spellslinger,,,,,X,,,X,X,X,,,,
-Spirit Binder,,,,,,,,C,C,X,X,X,X,X
-Spirit Whisperer,,,,,,X,,C,X,,C,C,C,X
-Split Slot,,,,,,,,,,,(X),(X),(X),(X)
-Staff-Like Wand,,,,,,,,,,,,,(X),(X)
+Archetype Name,Class Skills,Skill Ranks per Level,Spells,Cantrips,Spellbooks,Bonus Languages,Arcane Bond,Arcane School,Scribe Scroll,Bonus Feat 5,Bonus Feat 10,Bonus Feat 15,Bonus Feat 20
+Alchemical Affinity,,,,,,,,,,(X),(X),(X),(X)
+Arcane Bomber,,,,X,,,X,X,,,,,
+Arcane Builder,,,,,,,,,,(X),(X),(X),(X)
+Arcane Physician,,,,,,,,X,X,,,,
+Arcane Warden,C,,,,,,,C,X,X,X,X,X
+Balanced Summoning,,,,,,,,,,(X),(X),(X),(X)
+Beyond Morality,,,,,,,,,,,(X),(X),(X)
+Bonded Wizard,,,,,,,C,,X,X,X,X,
+Chronomancer,,,,,,,X,,,,X,X,X
+Clocksmith,,,,,,,C,,X,X,X,X,X
+Creative Destruction,,,,,,,,,,(X),(X),(X),(X)
+Cruoromancer (Dhampir),,,,,,,X,,,X,X,X,X
+Defensive Feedback,,,,,,,,,,(X),(X),(X),(X)
+Elder Mythos Scholar,,,,,C,,C,C,X,X,,X,
+Exploiter Wizard,,,,,,,X,X,,,,,
+Familiar Adept,,,,,C,,C,C,X,X,X,,
+Fast Study,,,,,,,,,,(X),(X),(X),(X)
+Feral Speech,,,,,,,,,,(X),(X),(X),(X)
+Fey Caller,,,,,,,C,X,X,,,,
+Forest’s Blessing,,,,,,,,,,(X),(X),(X),(X)
+Golem Constructor,,,,,,,,,,,(X),(X),(X)
+Hallowed Necromancer,,,C,,,,C,C,X,X,X,X,
+Idealize,,,,,,,,,,,(X),(X),(X)
+Immortality,,,,,,,,,,,,,(X)
+Infectious Charms,,,,,,,,,,,,(X),(X)
+Instructor,,,,,,,X,,,C,C,C,C
+Ioun Bond,,,,,,,,,,(X),(X),(X),(X)
+Knowledge is Power,,,,,,,,,,(X),(X),(X),(X)
+Multimorph,,,,,,,,,,(X),(X),(X),(X)
+Opposition Research,,,,,,,,,,,(X),(X),(X)
+Pact Wizard (FF),,,,,,,C,C,,,,,
+Pact Wizard (HH),,,C,,,,,,X,X,X,X,X
+Poleiheira Adherent,,,,,,,X,X,,,,,
+Primalist,,,,,,,X,,,X,X,,
+Resilient Illusions,,,,,,,,,,,(X),(X),(X)
+Runesage,,,,,,,C,X,,,,,
+Scroll Scholar,,,C,,,,,C,,X,,,
+Scrollmaster,,,,,,,X,,,,X,,
+Shadowcaster,,,,,,,X,,,X,X,,
+Siege Mage,,,,X,,,X,X,X,,,,
+Spell Sage,,,,,,,X,X,,,,,
+Spellbinder (Elf),,,,,,,X,,,,,,
+Spellslinger,,,,X,,,X,X,X,,,,
+Spirit Binder,,,,,,,C,C,X,X,X,X,X
+Spirit Whisperer,,,,,X,,C,X,,C,C,C,X
+Split Slot,,,,,,,,,,(X),(X),(X),(X)
+Staff-Like Wand,,,,,,,,,,,,(X),(X)
 "Steward of the
-Great Beyond",,,,,,,,,,,,(X),(X),(X)
-Sword Binder,,,,,,,,C,X,,,X,,
-Time Stutter,,,,,,,,,,,,(X),(X),(X)
-True Name,,,,,,,,,,,,,(X),(X)
-Undead Master,,,,,,,,C,C,X,X,X,X,X
-Werewolf Shape,,,,,,,,,,,,,(X),(X)
-Wind Listener (Sylph),C,,,,,,,X,C,,X,X,X,
-Worldseeker,,,,,,,,C,C,X,X,,X,
+Great Beyond",,,,,,,,,,,(X),(X),(X)
+Sword Binder,,,,,,,C,X,,,X,,
+Time Stutter,,,,,,,,,,,(X),(X),(X)
+True Name,,,,,,,,,,,,(X),(X)
+Undead Master,,,,,,,C,C,X,X,X,X,X
+Werewolf Shape,,,,,,,,,,,,(X),(X)
+Wind Listener (Sylph),C,,,,,,X,C,,X,X,X,
+Worldseeker,,,,,,,C,C,X,X,,X,

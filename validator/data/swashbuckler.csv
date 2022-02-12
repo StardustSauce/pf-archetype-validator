@@ -1,21 +1,21 @@
-Archetype Name,Class Skills,Weapon & Armor,Panache,Derring-Do,Dodging Panache,Opportune Parry and Riposte,Kip-Up,Menacing Swordplay,Precise Strike,Swashbuckler Initiative,Swashbuckler’s Grace,Superior Feint,Targeted Strike,Bleeding Wound,Evasive,Subtle Blade,Dizzying Defense,Perfect Thrust,Swashbuckler’s Edge,Cheat Death,Deadly Stab,Stunning Stab,Swashbuckler Finesse,Charmed Life,Nimble 3,Nimble 7,Nimble 11,Nimble 15,Nimble 19,Bonus Feat 4,Bonus Feat 8,Bonus Feat 12,Bonus Feat 16,Bonus Feat 20,Swashbuckler Weapon Training 5,Swashbuckler Weapon Training 9,Swashbuckler Weapon Training 13,Swashbuckler Weapon Training 17,Swashbuckler Weapon Mastery
-Arrow Champion,,,C,,,X,,,C,X,,X,,,,,,,,,,,,,,,,,,,,,,,X,X,X,X,X
-Azatariel,,,,,,,,X,X,,,,,X,,,,,,,,,,X,X,X,X,X,X,X,X,X,X,X,,,,,
-Bravo,C,C,,,,,,X,,,,,,X,,,,,X,,,,,,,,,,,,,,,,,,,,
-Corsair,,,,,,,,,,X,,,X,,,,,,,,,,,,X,X,X,X,X,,,,,,,,,,
-Courser,,,,,,,,X,,,,X,,X,,,,,,,,,,,C,C,C,C,C,X,,,,,,,,,
-Daring Infiltrator,C,,,,,,,X,,X,,,,X,,,,,,,,,,X,,,,,,C,C,C,C,C,,,,,
-Dashing Thief,C,,C,X,,,,X,,,,,,,,,X,,X,,,,,,,,,,,X,X,X,X,X,,,,,
-Falcata Swashbuckler,,,,X,,,X,,,,,,,X,,,,X,,,,,,C,,,,,,,,,,,,,,,
-Flying Blade,,,C,,X,,X,X,,,,,X,C,,,,X,,,,,,,,,,,,,,,,,X,X,X,X,X
-Guiding Blade,,,C,X,X,X,X,,,,X,X,X,,,,X,X,X,,,,,C,X,X,X,X,X,X,X,X,X,X,,,,,
-Inspired Blade,,,C,,,,,,,,,,,X,,,,,,,,,X,,,,,,,,,,,,X,X,X,X,X
-Mouser,,,,,,X,,X,,,,,X,X,,,,,,,,,,,,,,,,,,,,,,,,,
-Musketeer,,C,,,X,,,,,,,,,,,,,,,,,,C,,,,,,,,,,,,,,,,
-Mysterious Avenger,C,C,,,,,,,,,,,X,X,,,,,,,,,C,,X,X,X,X,X,X,,,,,X,X,X,X,
-Mystic Corsair,,X,,,,,,X,,,,X,,X,,,X,,,,,,X,,,,,,,C,C,C,C,C,,,,,
-Noble Fencer,,,,,X,,,,,,,X,,,,X,,,,,,,,X,,,,,,,,,,,,,,,
-Picaroon,,C,C,,,X,X,,,,,X,,X,,,,,,,,,X,,,,,,,,,,,,,,,,
-Veiled Blade,C,,,,,X,,X,,,X,,,,,,,,X,,,,,,,,,,,,,,,,,,,,
-Whirling Dervish,,,C,,,,,,,,,X,X,X,,,,,,,X,,C,,,,,,,,,,,,,,,,
-Wildstrider,C,,,,X,,X,,,,,,,,,X,,,X,,,,,,,,,,,,,,,,,,,,
+Archetype Name,Class Skills,Weapon & Armor,Panache,Derring-Do,Dodging Panache,Opportune Parry and Riposte,Kip-Up,Menacing Swordplay,Precise Strike,Swashbuckler Initiative,Swashbuckler’s Grace,Superior Feint,Targeted Strike,Bleeding Wound,Evasive,Subtle Blade,Dizzying Defense,Perfect Thrust,Swashbuckler’s Edge,Cheat Death,Deadly Stab,Stunning Stab,Swashbuckler Finesse,Charmed Life,Nimble,Bonus Feat 4,Bonus Feat 8,Bonus Feat 12,Bonus Feat 16,Bonus Feat 20,Swashbuckler Weapon Training,Swashbuckler Weapon Mastery
+Arrow Champion,,,C,,,X,,,C,X,,X,,,,,,,,,,,,,,,,,,,X,X
+Azatariel,,,,,,,,X,X,,,,,X,,,,,,,,,,X,X,X,X,X,X,X,,
+Bravo,C,C,,,,,,X,,,,,,X,,,,,X,,,,,,,,,,,,,
+Corsair,,,,,,,,,,X,,,X,,,,,,,,,,,,X,,,,,,,
+Courser,,,,,,,,X,,,,X,,X,,,,,,,,,,,C,X,,,,,,
+Daring Infiltrator,C,,,,,,,X,,X,,,,X,,,,,,,,,,X,,C,C,C,C,C,,
+Dashing Thief,C,,C,X,,,,X,,,,,,,,,X,,X,,,,,,,X,X,X,X,X,,
+Falcata Swashbuckler,,,,X,,,X,,,,,,,X,,,,X,,,,,,C,,,,,,,,
+Flying Blade,,,C,,X,,X,X,,,,,X,C,,,,X,,,,,,,,,,,,,X,X
+Guiding Blade,,,C,X,X,X,X,,,,X,X,X,,,,X,X,X,,,,,C,X,X,X,X,X,X,,
+Inspired Blade,,,C,,,,,,,,,,,X,,,,,,,,,X,,,,,,,,X,X
+Mouser,,,,,,X,,X,,,,,X,X,,,,,,,,,,,,,,,,,,
+Musketeer,,C,,,X,,,,,,,,,,,,,,,,,,C,,,,,,,,,
+Mysterious Avenger,C,C,,,,,,,,,,,X,X,,,,,,,,,C,,X,X,,,,,X,
+Mystic Corsair,,X,,,,,,X,,,,X,,X,,,X,,,,,,X,,,C,C,C,C,C,,
+Noble Fencer,,,,,X,,,,,,,X,,,,X,,,,,,,,X,,,,,,,,
+Picaroon,,C,C,,,X,X,,,,,X,,X,,,,,,,,,X,,,,,,,,,
+Veiled Blade,C,,,,,X,,X,,,X,,,,,,,,X,,,,,,,,,,,,,
+Whirling Dervish,,,C,,,,,,,,,X,X,X,,,,,,,X,,C,,,,,,,,,
+Wildstrider,C,,,,X,,X,,,,,,,,,X,,,X,,,,,,,,,,,,,

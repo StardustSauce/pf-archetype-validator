@@ -1,11 +1,11 @@
-Archetype Name,Class Skills,Weapon & Armor,Aura of Evil,Code of Conduct,Detect Good,Smite Good 1,Smite Good 4,Smite Good 7,Smite Good 10,Smite Good 13,Smite Good 16,Smite Good 19,Unholy Resilience,Touch of Corruption,Aura of Cowardice,Plague Bringer,Cruelty 3,Cruelty 6,Cruelty 9,Cruelty 12,Cruelty 15,Cruelty 18,Channel Negative Energy,Spells,Fiendish Boon,Aura of Despair,Aura of Vengeance,Aura of Sin,Aura of Depravity,Unholy Champion
-Blighted Myrmidon,,,,,,C,C,C,X,C,C,C,,,,,,,,,X,,,,C,,X,,,C
-Dread Vanguard,,,,,,,,,,,,,,,,,,,,,,,,X,,,,X,,
-Fearmonger,,,,,,,,,,,,,,X,,,C,C,C,C,,,,,,,,,,
-Insinuator,,,X,C,C,X,X,X,X,X,X,X,,X,X,X,X,X,X,X,X,X,X,X,C,X,X,X,X,X
-Iron Tyrant,,,,,,,,,,,,,,X,,,X,X,X,X,X,X,X,,X,,,,,
-Knight of the Sepulcher,,,,,,,,,X,,,,,,,,X,X,X,X,X,X,,,X,X,X,X,X,X
-Rampager,,,,,,,,,,,,,,,X,,,,,,,,,,,X,,X,,
-Seal-Breaker,,,,,,,,,,,,,,,X,,,,,,,,,,X,X,X,,,
-Tyrant,X,,,X,,,,,,,,,,,,,,,,,,,,,X,,,,,
-Variant Channeling*,,,,,,,,,,,,,,,,,,,,,,,C,,,,,,,
+Archetype Name,Class Skills,Aura of Evil,Code of Conduct,Detect Good,Smite Good 1,Smite Good 4,Smite Good 7,Smite Good 10,Smite Good 13,Smite Good 16,Smite Good 19,Unholy Resilience,Touch of Corruption,Aura of Cowardice,Plague Bringer,Cruelty 3,Cruelty 6,Cruelty 9,Cruelty 12,Cruelty 15,Cruelty 18,Channel Negative Energy,Spells,Fiendish Boon,Aura of Despair,Aura of Vengeance,Aura of Sin,Aura of Depravity,Unholy Champion
+Blighted Myrmidon,,,,,C,C,C,X,C,C,C,,,,,,,,,X,,,,C,,X,,,C
+Dread Vanguard,,,,,,,,,,,,,,,,,,,,,,,X,,,,X,,
+Fearmonger,,,,,,,,,,,,,X,,,C,C,C,C,,,,,,,,,,
+Insinuator,,X,C,C,X,X,X,X,X,X,X,,X,X,X,X,X,X,X,X,X,X,X,C,X,X,X,X,X
+Iron Tyrant,,,,,,,,,,,,,X,,,X,X,X,X,X,X,X,,X,,,,,
+Knight of the Sepulcher,,,,,,,,X,,,,,,,,X,X,X,X,X,X,,,X,X,X,X,X,X
+Rampager,,,,,,,,,,,,,,X,,,,,,,,,,,X,,X,,
+Seal-Breaker,,,,,,,,,,,,,,X,,,,,,,,,,X,X,X,,,
+Tyrant,X,,X,,,,,,,,,,,,,,,,,,,,,X,,,,,
+Variant Channeling*,,,,,,,,,,,,,,,,,,,,,,C,,,,,,,

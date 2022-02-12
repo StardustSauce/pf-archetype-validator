@@ -1,20 +1,20 @@
-Archetype Name,Class Skills,Weapon & Armor,Spells,Orisons,Bonus Languages,Aura,Blessings,Focus Weapon,Sacred Weapon 1,Sacred Weapon 4,Sacred Weapon 8,Sacred Weapon 12,Sacred Weapon 16,Sacred Weapon 20,Fervor,Bonus Feat 3,Bonus Feat 6,Bonus Feat 9,Bonus Feat 12,Bonus Feat 15,Bonus Feat 18,Channel Energy,Sacred Armor 7,Sacred Armor 10,Sacred Armor 13,Sacred Armor 16,Sacred Armor 19,Aspect of War
-Arsenal Chaplain,,,,,,,C,,C,C,C,C,C,C,,,,,,,,X,X,X,X,X,X,
-Bulwark,,C,,,,,,X,X,X,X,X,X,X,,,X,,X,,X,,C,C,C,C,C,
-Calamity Caller,,,,,,,C,X,X,X,X,X,X,X,,X,X,X,X,X,X,,,,,,,X
-Champion of The Faith,,,,,,,,,C,C,C,C,C,C,,X,,,,,,X,,,,,,
-Cult Leader,C,C,,,,,,X,,,,,,,,X,,X,X,X,,X,,,,,,
-Disenchanter,,,,,,,,,,,,,,,,C,X,C,C,C,C,X,,,,,,
-Divine Champion,,,,,,,,,,,,,,,,X,X,X,X, ,X,,,,,,,
-Divine Commander,,,,,,,X,,,,,,,,,X,X,,X,X,,,,,,,,
-Djinn Caller,C,,C,,C,,C,,,,,,,,,,,,,,,C,,,,,,
-Feral Champion,,,,,,,C,,C,C,C,C,C,C,,,,,,,,,X,X,X,X,X,
-Fist of the Gods,,,,,,,C,,,,,,,,,X,X,,X,,,,,,,,,X
-Forgepriest,,,C,,,,C,,,,,,,,,X,X,C,C,C,C,X,,,,,,
-Liberty's Blade,,,,,,,C,,C,C,C,C,C,C,,,,,,,,C,C,C,C,C,C,
-Liberty’s Blade,,,,,,,C,,C,C,C,C,C,C,,,,,,,,C,C,C,C,C,C,
-Mantis Zealot,,C,,,,,,,X,X,X,X,X,X,,,,,,,,,X,X,X,X,X,X
-Proclaimer,,,C,,,,,,,,,,,,C,,,,,,,X,X,X,X,X,X,
-Proselytizer,,C,,,,,C,,C,C,C,C,C,C,,X,,,,,,,X,X,X,X,X,
-Sacred Fist,C,C,,,,,,X,X,X,X,X,X,X,,X,X,X,X,,X,,X,X,X,X,X,
-Shieldbearer,,,,,,,,X,C,C,C,C,C,C,,,,,,,,C,X,X,X,X,X,
+Archetype Name,Class Skills,Weapon & Armor,Spells,Orisons,Bonus Languages,Aura,Blessings,Focus Weapon,Sacred Weapon,Fervor,Bonus Feat 3,Bonus Feat 6,Bonus Feat 9,Bonus Feat 12,Bonus Feat 15,Bonus Feat 18,Channel Energy,Sacred Armor,Aspect of War
+Arsenal Chaplain,,,,,,,C,,C,,,,,,,,X,X,
+Bulwark,,C,,,,,,X,X,,,X,,X,,X,,C,
+Calamity Caller,,,,,,,C,X,X,,X,X,X,X,X,X,,,X
+Champion of The Faith,,,,,,,,,C,,X,,,,,,X,,
+Cult Leader,C,C,,,,,,X,,,X,,X,X,X,,X,,
+Disenchanter,,,,,,,,,,,C,X,C,C,C,C,X,,
+Divine Champion,,,,,,,,,,,X,X,X,X, ,X,,,
+Divine Commander,,,,,,,X,,,,X,X,,X,X,,,,
+Djinn Caller,C,,C,,C,,C,,,,,,,,,,C,,
+Feral Champion,,,,,,,C,,C,,,,,,,,,X,
+Fist of the Gods,,,,,,,C,,,,X,X,,X,,,,,X
+Forgepriest,,,C,,,,C,,,,X,X,C,C,C,C,X,,
+Liberty's Blade,,,,,,,C,,C,,,,,,,,C,C,
+Liberty’s Blade,,,,,,,C,,C,,,,,,,,C,C,
+Mantis Zealot,,C,,,,,,,X,,,,,,,,,X,X
+Proclaimer,,,C,,,,,,,C,,,,,,,X,X,
+Proselytizer,,C,,,,,C,,C,,X,,,,,,,X,
+Sacred Fist,C,C,,,,,,X,X,,X,X,X,X,,X,,X,
+Shieldbearer,,,,,,,,X,C,,,,,,,,C,X,

@@ -1,9 +1,9 @@
-Archetype Name,Class Skills,Hit Die,Weapon & Armor,Spells,Phrenic Pool,Phrenic Amplification 1,Phrenic Amplification 3,Phrenic Amplification 7,Phrenic Amplification 11,Phrenic Amplification 15,Phrenic Amplification 19,Discipline Power 1,Discipline Power 5,Discipline Power 13,Discipline Spell 1,Discipline Spell 4,Discipline Spell 6,Discipline Spell 8,Discipline Spell 10,Discipline Spell 12,Discipline Spell 14,Discipline Spell 16,Discipline Spell 18,Detect Thoughts,Telepathic Bond,Major Amplifications,Telepathy,Remade Self
-Amnesiac,,,,C,,,,,,,,,,,,,,,,,,,,,,,,
-Esoteric Starseeker,,,,,,X,,,X,,,,,,X,X,X,X,X,X,X,X,X,,,C,,
-Formless Adept,,,,,C,X,,,,X,,X,X,X,X,X,X,X,X,X,X,X,X,,,,,X
-Mutation Mind,,,,,,X,C,C,C,C,C,,,,,,,,,,,,,,,C,,
-Psychic Duelist,,,,,,C,C,X,C,C,C,,,,,X,,,,,,,,,X,,X,
-Psychic Marauder,,,,,,,X,,X,,X,,,,,,,,,,,,,X,X,,,X
-Terror Weaver (Half-Orc),,,,,,,,,X,X,X,,,,,,,,,,,,,X,X,,,
-Wildepath,,,,,,X,,,X,,,,,,X,X,X,X,X,X,X,X,X,,X,,C,
+Archetype Name,Spells,Phrenic Pool,Phrenic Amplification 1,Phrenic Amplification 3,Phrenic Amplification 7,Phrenic Amplification 11,Phrenic Amplification 15,Phrenic Amplification 19,Discipline Power,Discipline Spell 1,Discipline Spell 4,Discipline Spell 6,Discipline Spell 8,Discipline Spell 10,Discipline Spell 12,Discipline Spell 14,Discipline Spell 16,Discipline Spell 18,Detect Thoughts,Telepathic Bond,Major Amplifications,Telepathy,Remade Self
+Amnesiac,C,,,,,,,,,,,,,,,,,,,,,,
+Esoteric Starseeker,,,X,,,X,,,,X,X,X,X,X,X,X,X,X,,,C,,
+Formless Adept,,C,X,,,,X,,X,X,X,X,X,X,X,X,X,X,,,,,X
+Mutation Mind,,,X,C,C,C,C,C,,,,,,,,,,,,,C,,
+Psychic Duelist,,,C,C,X,C,C,C,,,X,,,,,,,,,X,,X,
+Psychic Marauder,,,,X,,X,,X,,,,,,,,,,,X,X,,,X
+Terror Weaver (Half-Orc),,,,,,X,X,X,,,,,,,,,,,X,X,,,
+Wildepath,,,X,,,X,,,,X,X,X,X,X,X,X,X,X,,X,,C,

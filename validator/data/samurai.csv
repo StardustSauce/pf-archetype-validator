@@ -1,8 +1,8 @@
-Archetype Name,Starting Wealth,Class Skills,Skill Ranks per Level,Weapon & Armor,Challenge 1,Challenge 4,Challenge 7,Challenge 10,Challenge 13,Challenge 16,Challenge 19,Mount,Order Edict,Order Challenge Bonus,Order Bonus Class Skills,Order Ability 2,Order Ability 8,Order Ability 15,Resolve,Weapon Expertise,Mounted Archer,Banner,Bonus Feat 6,Bonus Feat 12,Bonus Feat 18,Greater Resolve,Honorable Stand,Demanding Challenge,Greater Banner,True Resolve,Last Stand
-Brawling Blademaster,,,,C,,,,,,,,X,,,,,,,,X,X,X,,,,,,,X,,
-Ironbound Sword,,,,,,,,,,,,,,,,,,,,X,,X,,,,,,,X,,
-Sword Saint,,,,,,,,,,,,X,,,,,,,,,X,X,,,,,,,X,,
-Sovereign Blade,,,,,,,,,,,,X,,,,,,,,,X,,X,X,X,,,,,,
-Ward Speaker,,,,,,,,,,,,,,,,,,,X,,,,,,,X,C,,,X,
-Warrior Poet,,,,C,C,C,C,C,C,C,C,X,,,,,,,,X,X,X,X,X,X,,,X,X,,
-Yojimbo,,,,,,,,,,,,X,,,,,,,,X,X,,,,,,,,,,
+Archetype Name,Starting Wealth,Skill Ranks per Level,Weapon & Armor,Challenge,Mount,Order Edict,Order Challenge Bonus,Order Bonus Class Skills,Order Ability,Resolve,Weapon Expertise,Mounted Archer,Banner,Bonus Feat 6,Bonus Feat 12,Bonus Feat 18,Greater Resolve,Honorable Stand,Demanding Challenge,Greater Banner,True Resolve,Last Stand
+Brawling Blademaster,,,C,,X,,,,,,X,X,X,,,,,,,X,,
+Ironbound Sword,,,,,,,,,,,X,,X,,,,,,,X,,
+Sword Saint,,,,,X,,,,,,,X,X,,,,,,,X,,
+Sovereign Blade,,,,,X,,,,,,,X,,X,X,X,,,,,,
+Ward Speaker,,,,,,,,,,X,,,,,,,X,C,,,X,
+Warrior Poet,,,C,C,X,,,,,,X,X,X,X,X,X,,,X,X,,
+Yojimbo,,,,,X,,,,,,X,X,,,,,,,,,,

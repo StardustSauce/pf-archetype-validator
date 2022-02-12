@@ -1,39 +1,39 @@
-Archetype Name,Class Skills,Weapons & Armor,Challenge 1,Challenge 4,Challenge 7,Challenge 10,Challenge 13,Challenge 16,Challenge 19,Mount,Order Edict,Order Challenge Bonus,Order Bonus Class Skills,Order Abilities 2,Order Abilities 8,Order Abilities 15,Tactician,Cavalier’s Charge,Expert Trainer,Banner,Bonus Feat 6,Bonus Feat 12,Bonus Feat 18,Greater Tactician,Mighty Charge,Demanding Challenge,Greater Banner,Master Tactician,Supreme Charge
-Beast Rider,,C,,,,,,,,X,,,,,,,,,X,,,,,,,,,,
-Castellan,,,,,,,,,,X,,,,,,,,X,X,,,,,,X,X,,,X
-Charger (Centaur),C,,,,,,,,,X,,,,,,,,X,X,,,,,,X,,,,
-Circuit Judge,,,X,X,X,X,X,X,X,,,,,,,,X,,,,,,,X,,X,,X,
-Constable,C,,,,,,,,,X,,,,,,,,X,X,X,,,,,X,,X,,X
-Courtly Knight,,,,,,,,,,,,,,,,,X,,,,,,,X,,,,X,
-Daring Champion,,C,,,,,,,,X,,,,,,,,X,X,,,,,,X,,,,X
-Daring General,,,,,,,,,,,,,,,,,,,,,X,X,X,,,X,,,X
-Disciple of the Pike,,,,,,,,,,X,,,,,,,,X,X,X,,,,,X,,X,,X
-Drake Rider,,,,,,,,,,X,,,,,,,X,C,X,X,,,,X,,,X,X,
-Dune Drifter,,X,,,,,,,,,,,,,,,X,X,,C,X,X,X,X,X,X,,X,X
-Emissary,,C,,,,,,,,,,,,,,,X,,,X,C,C,C,X,,,X,,X
-Esquire,,,,,,,,,,X,,,,,,,,X,X,X,,,,,X,,,,X
-Fell Rider (Hobgoblin),,,,,,,,,,C,,,,,,,,X,,X,,,,,X,,X,,X
-Gallant,,,,,,,,,,,C,,,,,,,,,X,,,,,,,X,,
-Gendarme,,,,,,,,,,,,,,,,,X,,,,X,X,X,X,,,,X,X
-Ghost Rider,,,,,,,,,,X,,,,,,,X,X,X,X,,,,X,X,,X,X,
-Green Knight,,,,,,,,,,X,C,,,,,,X,X,X,X,,,,X,X,,X,X,X
-Herald Squire,,,,,,,,,,,,,,X,,,X,X,,,,,,,,,,,
-Honor Guard,,,C,C,C,C,C,C,C,,,,,,,,,X,,,,,,,X,X,,,
-Hooded Knight,C,,,,,,,,,C,,,,,,,X,,,,,,,X,,,,X,
-Horselord,,C,,,,,,,,C,,,,,,,X,X,,,X,,,X,,,,X,
-Huntmaster,C,X,C,C,C,C,C,C,C,X,,,,,,,C,X,C,X,X,X,X,C,X,,X,C,X
-Hussar,C,C,,,,,,,,,,,,,,,X,,,X,X,X,X,X,,,X,X,
-Knight of the Wall,,,,,,,,,,,,,,,,,X,,X,C,,,,X,,X,X,,
-Luring Cavalier,,,X,X,X,X,X,X,X,,,,,,,,,X,,,,,,,X,,,,X
-Mother's Fang,C,,,,,,,,,C,X,X,X,X,X,X,,,,,,,,,,,,,
-Mother’s Fang,C,C,,,,,,,,C,X,,X,X,X,X,,,,,,,,,,,,,
-Musketeer,,X,,,,,,,,X,,,,,,,,,X,,,,,,,,,,
-Oceanrider,,C,,,,,,,,C,,,,,,,,,X,,,,,,,,,,
-Outrider (Lashunta),,C,,,,,,,,,,,,,,,X,,,X,,,,X,,,X,X,
-Saurian Champion,C,C,C,C,C,C,C,C,C,C,X,,,,,,X,,,X,,,,X,,,X,X,
-Sister-in-Arms,,,C,C,C,C,C,C,C,X,C,,,,,,,X,X,,,,,,X,,,,X
-Standard Bearer,,,,,,,,,,X,,,,,,,,,,X,,,,,X,,,,X
-Strategist,,,,,,,,,,,,,,,,,C,,X,,,,X,,,,X,,
-Verdivant,,,,,,,,,,C,,,,,,,X,C,X,X,X,X,X,X,,,X,X,
-Vermin Tamer,,,,,,,,,,C,,,,,,,,,X,,,,,,,X,,,
-Wave Rider,,C,,,,,,,,C,,,,,,,,,,,,,,,,,,,
+Archetype Name,Class Skills,Weapons & Armor,Challenge,Mount,Order Edict,Order Challenge Bonus,Order Bonus Class Skills,Order Abilities 2,Order Abilities 8,Order Abilities 15,Tactician,Cavalier’s Charge,Expert Trainer,Banner,Bonus Feat 6,Bonus Feat 12,Bonus Feat 18,Greater Tactician,Mighty Charge,Demanding Challenge,Greater Banner,Master Tactician,Supreme Charge
+Beast Rider,,C,,X,,,,,,,,,X,,,,,,,,,,
+Castellan,,,,X,,,,,,,,X,X,,,,,,X,X,,,X
+Charger (Centaur),C,,,X,,,,,,,,X,X,,,,,,X,,,,
+Circuit Judge,,,X,,,,,,,,X,,,,,,,X,,X,,X,
+Constable,C,,,X,,,,,,,,X,X,X,,,,,X,,X,,X
+Courtly Knight,,,,,,,,,,,X,,,,,,,X,,,,X,
+Daring Champion,,C,,X,,,,,,,,X,X,,,,,,X,,,,X
+Daring General,,,,,,,,,,,,,,,X,X,X,,,X,,,X
+Disciple of the Pike,,,,X,,,,,,,,X,X,X,,,,,X,,X,,X
+Drake Rider,,,,X,,,,,,,X,C,X,X,,,,X,,,X,X,
+Dune Drifter,,X,,,,,,,,,X,X,,C,X,X,X,X,X,X,,X,X
+Emissary,,C,,,,,,,,,X,,,X,C,C,C,X,,,X,,X
+Esquire,,,,X,,,,,,,,X,X,X,,,,,X,,,,X
+Fell Rider (Hobgoblin),,,,C,,,,,,,,X,,X,,,,,X,,X,,X
+Gallant,,,,,C,,,,,,,,,X,,,,,,,X,,
+Gendarme,,,,,,,,,,,X,,,,X,X,X,X,,,,X,X
+Ghost Rider,,,,X,,,,,,,X,X,X,X,,,,X,X,,X,X,
+Green Knight,,,,X,C,,,,,,X,X,X,X,,,,X,X,,X,X,X
+Herald Squire,,,,,,,,X,,,X,X,,,,,,,,,,,
+Honor Guard,,,C,,,,,,,,,X,,,,,,,X,X,,,
+Hooded Knight,C,,,C,,,,,,,X,,,,,,,X,,,,X,
+Horselord,,C,,C,,,,,,,X,X,,,X,,,X,,,,X,
+Huntmaster,C,X,C,X,,,,,,,C,X,C,X,X,X,X,C,X,,X,C,X
+Hussar,C,C,,,,,,,,,X,,,X,X,X,X,X,,,X,X,
+Knight of the Wall,,,,,,,,,,,X,,X,C,,,,X,,X,X,,
+Luring Cavalier,,,X,,,,,,,,,X,,,,,,,X,,,,X
+Mother's Fang,C,,,C,X,X,X,X,X,X,,,,,,,,,,,,,
+Mother’s Fang,C,C,,C,X,,X,X,X,X,,,,,,,,,,,,,
+Musketeer,,X,,X,,,,,,,,,X,,,,,,,,,,
+Oceanrider,,C,,C,,,,,,,,,X,,,,,,,,,,
+Outrider (Lashunta),,C,,,,,,,,,X,,,X,,,,X,,,X,X,
+Saurian Champion,C,C,C,C,X,,,,,,X,,,X,,,,X,,,X,X,
+Sister-in-Arms,,,C,X,C,,,,,,,X,X,,,,,,X,,,,X
+Standard Bearer,,,,X,,,,,,,,,,X,,,,,X,,,,X
+Strategist,,,,,,,,,,,C,,X,,,,X,,,,X,,
+Verdivant,,,,C,,,,,,,X,C,X,X,X,X,X,X,,,X,X,
+Vermin Tamer,,,,C,,,,,,,,,X,,,,,,,X,,,
+Wave Rider,,C,,C,,,,,,,,,,,,,,,,,,,

@@ -1,16 +1,16 @@
-Archetype Name,Class Skills,Weapon & Armor,Spells,Knacks,Spirit,Spirit Bonus,Lesser Spirit Power,Intermediate Spirit Power,Greater Spirit Power,Supreme Spirit Power,Spirit Surge 1,Spirit Surge 10,Spirit Surge 20,Shared Seance,Taboo,Haunt Channeler,Location Channel,Connection Channel,Propitiation,Ask the Spirits,Astral Journey,Trance of Three,Spacious Soul,Spirit Mastery,Astral Beacon
-Fiend Keeper,,,,,C,C,,,,,,,,,,X,X,X,,X,,,,,
-Kami Medium,,,C,,C,,,,,,,,,,C,X,X,X,,X,X,,,,
-Legend Channeler,,,,C,C,,,,,,,,,,C,X,X,X,X,X,X,X,X,C,X
-Medium of the Master,C,C,,,C,,C,C,,X,C,C,C,X,,,,,,,,X,,,
-Outer Channeler,,,,,C,,,C,,,,,,C,C,X,X,X,,C,X,,,,
-Reanimated Medium,,,,,C,,,,,,,,,,X,X,X,X,,,,,X,,X
-Relic Channeler,,,,,C,,,,,,,,,,,X,X,C,,,,,,,
-Spirit Channeler,,,C,,C,X,,,,,X,X,X,,X,,,X,,,,,,,
-Spirit Dancer,,,,,C,X,,,,,X,X,X,X,X,,,,,,,X,X,,X
-Spirit Eater,,,,,,,,,,,,,,,,X,X,X,,,,,,,
-Storm Dreamer,,,,,,,,,,,X,X,X,,,X,X,X,,,,,,,
-Storyteller,,,,,C,X,,,,,C,C,C,X,X,X,,X,X,,,X,,X,X
-Vessel of the Failed,,,,,C,,,,,,C,C,C,,C,,,,,,,X,,C,
-Voice of the Void,,,,,C,,,,,,C,C,C,,X,X,,,,,,,,,
-Wendo Caller,C,,,,C,,,,,,,,,X,,X,X,X,,,,,,,
+Archetype Name,Class Skills,Weapon & Armor,Spells,Knacks,Spirit,Spirit Bonus,Lesser Spirit Power,Intermediate Spirit Power,Greater Spirit Power,Supreme Spirit Power,Spirit Surge,Shared Seance,Taboo,Haunt Channeler,Location Channel,Connection Channel,Propitiation,Ask the Spirits,Astral Journey,Trance of Three,Spacious Soul,Spirit Mastery,Astral Beacon
+Fiend Keeper,,,,,C,C,,,,,,,,X,X,X,,X,,,,,
+Kami Medium,,,C,,C,,,,,,,,C,X,X,X,,X,X,,,,
+Legend Channeler,,,,C,C,,,,,,,,C,X,X,X,X,X,X,X,X,C,X
+Medium of the Master,C,C,,,C,,C,C,,X,C,X,,,,,,,,X,,,
+Outer Channeler,,,,,C,,,C,,,,C,C,X,X,X,,C,X,,,,
+Reanimated Medium,,,,,C,,,,,,,,X,X,X,X,,,,,X,,X
+Relic Channeler,,,,,C,,,,,,,,,X,X,C,,,,,,,
+Spirit Channeler,,,C,,C,X,,,,,X,,X,,,X,,,,,,,
+Spirit Dancer,,,,,C,X,,,,,X,X,X,,,,,,,X,X,,X
+Spirit Eater,,,,,,,,,,,,,,X,X,X,,,,,,,
+Storm Dreamer,,,,,,,,,,,X,,,X,X,X,,,,,,,
+Storyteller,,,,,C,X,,,,,C,X,X,X,,X,X,,,X,,X,X
+Vessel of the Failed,,,,,C,,,,,,C,,C,,,,,,,X,,C,
+Voice of the Void,,,,,C,,,,,,C,,X,X,,,,,,,,,
+Wendo Caller,C,,,,C,,,,,,,X,,X,X,X,,,,,,,
