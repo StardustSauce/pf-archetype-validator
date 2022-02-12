@@ -1,0 +1,20 @@
+Archetype Name,Alignment,Class Skills,Skill Ranks per Level,Weapon & Armor,Base Saves,Key Ability Score,Burn,Elemental Focus,Basic Utility,Gather Power,Infusion 1,Infusion 3,Infusion 5,Infusion 9,Infusion 11,Infusion 13,Infusion 17,Infusion 19,Kinetic Blast,Elemental Defense,Utility Wild Talent 2,Utility Wild Talent 4,Utility Wild Talent 6,Utility Wild Talent 8,Utility Wild Talent 10,Utility Wild Talent 12,Utility Wild Talent 14,Utility Wild Talent 16,Utility Wild Talent 18,Utility Wild Talent 20,Elemental OVerflow,Infusion Specialization,Metakinesis Empower,Metakinesis Maximize,Metakinesis Quicken,Metakinesis Twice,Internal Buffer,Expanded Element 7,Expanded Element 15,Supercharge,Composite Specialization,Metakinetic Master,Omnikinesis
+Aquakineticist,,,,,,,,C,X,,,,,,,,,,C,X,X,,X,,,,,,,,,,,,,,,C,C,,,,
+Arakineticist,,,,,,,,,,,,,,,,X,,,,,,X,X,X,,,,,,,,,,,,,,,,,,,
+Blightburner,,,,,,,,C,X,C,,,,,,,,,,C,X,,,,,,,,,,C,,,,,,C,,,,,,
+Blighted Defiler,C,,,,,C,,,,C,,,,,,,,,,X,,,,,,,,,,,C,,,,,,X,,,,,,X
+Blood Kineticist,,,,,,,,C,,,X,,X,X,X,,,,,,,,X,X,,,,,,,,,,,,,,(X),(X),,,,X
+Cinder Adept,,C,,,,,,C,,C,X,,,,,,,,,,,X,,X,,X,,,,,,,,,,,,C,C,,,,
+Dark Elementalist,C,C,,,C,C,C,,,,,,,,,,,,,,,,,,,,,,,,C,,,,,,C,,,,,,
+Elemental Annihilator,,,,,,,,,X,,X,X,X,X,,,,,,,X,X,X,X,X,X,X,X,X,X,,,,,,,,,,,,,X
+Elemental Ascetic,,,,,,C,,,,,,X,X,,X,,,,C,X,,,,,,,,,,,X,,,,,,,,,,,,
+Elemental Purist,,,,,,,,,,,,,,,X,,,X,,,,,,,,,,,,,,,,,,,X,X,X,,,,X
+Elysiokineticist,, ,,,,,,C,,,X,,,,,,,,,,,,,,,,,,,,,,,,,,,X,X,,,,
+Ioun Kineticist,,,,,,,,C,,,,,,,,,,,,,X,,,,,,,,,,C,,,,,,C,,,,,,
+Kinetic Chirurgeon,,,,,,,,,,,X,X,X,X,X,X,X,X,,,,,,,,,,,,,,X,X,X,X,X,X,,,,,,
+Kinetic Knight,,C,,,,,,,,,C,C,C,C,C,C,C,C,C,C,,,,,,,,,,,,,X,X,X,X,,,,X,,X,
+Leshykineticist,,,,,,,,,,,,,,,,,,,,,,,X,,X,,,,,,,,,X,,,X,C,C,,,,X
+Overwhelming Soul,,C,,,,C,C,,,,,,,,,,,,,,,,,,,,,,,,X,,,,,,X,,,,,,
+Psammokinetic,C,,,,,,,C,,,,,,,,,,,,,,,,,,,,,,,X,,,,,,,C,C,,,,
+Psychokineticist,,C,,,,C,C,,,,,,,,,,,,,,,,,,,,,,,,C,,,,,,,,,,,,
+Terrakineticist,,,,,,,,C,,,,,,,,,,,C,C,,,,,,,,,,,,,,,,,,X,X,,,,X

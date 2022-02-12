@@ -1,0 +1,21 @@
+Archetype Name,Base Attack Bonus,Class Skills,Skill Ranks Per Level,Weapon & Armor,Spells,Knacks,Focus Power 1,Focus Power 3,Focus Power 5,Focus Power 7,Focus Power 9,Focus Power 11,Focus Power 13,Focus Power 15,Focus Power 17,Focus Power 19,Implement 0,Implement 1,Implement 2,Implement 6,Implement 10,Implement 14,Implement 18,Mental Focus,Magic Item Skill,Object Reading,Shift Focus,Aura Sight,Magic Circles,Outside Contact 8,Outside Contact 12,Outside Contact 16,Outside Contact 20,Binding Circles,Fast Circles,Implement Mastery
+Ancestral Aspirant,,C,,,,,,,,,,,,,,,C,C,C,C,C,C,C,,,X,,,,X,X,X,X,,,
+Battle Host,,C,,X,C,,,,,,,,,,,,C,C,C,C,C,C,C,C,C,C,X,X,X,X,X,X,X,X,X,C
+Construct Collector,,,,,,,,X,,,X,,,X,,,,,,,,,,,,,,,X,X,X,X,X,X,X,
+Curator,,,,,,,,X,,,,,,,,,X,,,X,,X,,C,,,X,,X,X,X,X,X,X,X,
+Esoteric Initiate,,,,,,,,,,,,,,,,,C,C,C,C,C,C,C,C,,,C,X,,,,,,,,C
+Extemporaneous Channeler,,,,C,,,,,,,,,,,,,,,,,,,,C,,,C,,X,X,X,X,X,X,X,
+Geomancer,,C,,,,,,,,X,,,X,,,,C,C,C,C,C,C,C,C,X,,,X,,,,,,,,C
+Haunt Collector,,,,,,,,,,,,,,,,,C,C,C,C,C,C,C,,,,,X,X,X,X,X,X,X,X,C
+Naturalist,,C,,,,,,,,,,,,,,,,,,,,,,C,,,,,X,X,X,X,X,X,X,
+Necrooccultist,,,,,,,,,,,,,,,,,C,C,C,C,C,C,C,,,X,,X,,X,X,X,X,,,C
+Occult Historian,,,,,,,,X,,,,,,,,,,,,,,,,,,X,,X,, ,X,X,X,,,
+Panoply Savant,,,,,,,,,,,,,,,,,,,,,,,,,,,X,,X,X,X,X,X,X,X,
+Planar Harmonizer,,,,,,,,,X,X,,,,,,,C,C,C,C,C,C,C,,X,,X,X,C,,,,,,,C
+Psychodermist,,C,,,,,,,,,,,,,,,C,C,C,C,C,C,C,,X,X,,X,,X,X,X,X,X,X,C
+Reliquarian,,,,,C,C,,,,,,,,,,,C,C,C,C,C,C,C,C,,,,,,,,,,,,C
+Secret Broker,,C,,,,,,,,,,,,,,,C,C,C,C,C,C,C,,X,,X,,X,,,,,X,X,C
+Sha'ir,,,,,,,,,,,,,,,,,X,X,X,X,X,X,X,X,X,X,,X,,C,C,C,C,,,X
+Silksworn,,C,,C,C,X,,,,,,,,,,,C,C,C,C,C,C,C,C,,,,,X,X,X,X,X,X,X,C
+Talisman Crafter,,,,,,,,,X,,,,,,X,,C,C,C,C,C,C,C,,X,X,X,X,,,,,,,,C
+Tome Eater,,,,,C,,,,,,,,,,,,C,C,C,X,C,C,C,C,,,X,X,X,X,X,X,X,X,X,C
