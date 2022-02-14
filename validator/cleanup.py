@@ -1,4 +1,3 @@
-from collections import defaultdict
 from validator import FileUtils
 import os, csv
 
