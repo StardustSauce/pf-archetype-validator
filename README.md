@@ -1,4 +1,4 @@
-# pf-archetype-validator
+# Sauce's Pathfinder 1e Archetype Validator
 Compatibility checker for Pathfinder Archetypes.
 
 This program is a tool made mostly for my own personal use, intended to be used for checking compatibility between multiple archetypes in Pathfinder 1e at once. It has a full library of all first party classes and archetypes thereof. You are able to select a class, then pick any archetype associated with it, and add it to a Custom Class meant to be used by a single character. 
