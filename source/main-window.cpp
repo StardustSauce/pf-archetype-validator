@@ -11,7 +11,7 @@ MainWindow::MainWindow(const wxString& title, int width, int height)
 
   m_ArchetypeLabel = new wxStaticText(m_TopPanel, wxID_ANY, "Archetype List");
   m_CustomClassLabel = new wxStaticText(m_MiddlePanel, wxID_ANY, "Selected Archetypes");
-  m_ShowHidden = new wxCheckBox(m_TopPanel, wxID_ANY, "Show Hidden", wxDefaultPosition, wxDefaultSize, wxALIGN_RIGHT);
+  m_ShowHidden = new wxCheckBox(m_TopPanel, wxID_ANY, "Show Incompatible", wxDefaultPosition, wxDefaultSize, wxALIGN_RIGHT);
 
   m_ClassDropdown = new wxComboBox(
     m_TopPanel,
