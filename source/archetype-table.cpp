@@ -14,6 +14,8 @@ ArchetypeTable::ArchetypeTable(wxWindow* parent, bool showHeader) :
   ExtendRulesAndAlternateColour();
 }
 
+int ArchetypeTable::Size() const { return m_Archetypes.size(); }
+
 bool ArchetypeTable::GetShowHidden() const { return m_ShowHidden; }
 
 const Archetype* ArchetypeTable::GetArchetype(int position) const {
@@ -41,18 +43,12 @@ void ArchetypeTable::SetSelectedClass(const PfClass* list, bool showAll) {
     AppendColumn(list->features[i]);
   }
   for (int i = 0; i < list->archetypes.size(); i++) {
-    TableElement element = TableElement(SHOW, &list->archetypes[i]);
+    TableElement element = TableElement(showAll ? SHOW : DISABLE, &list->archetypes[i]);
     m_Archetypes.push_back(element);
   }
   RecalculateSize();
   for (int i = 0; i < list->features.size(); i++) {
     SetColumnWidth(i, i ? wxLIST_AUTOSIZE_USEHEADER : wxLIST_AUTOSIZE);
-  }
-  if (!showAll) {
-    for (int i = 0; i < list->archetypes.size(); i++) {
-      m_Archetypes.at(i).m_Display = HIDE;
-    }
-    RecalculateSize();
   }
 }
 

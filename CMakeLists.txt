@@ -7,6 +7,8 @@ project(validator)
 # Define a variable containing a list of source files for the project
 set(
   PROG_SRCS
+  resources/icons/appicon.rc
+  resources/icons/d20-Normal.xpm
   source/main.cpp
   source/main-window.cpp
   source/archetype-table.cpp

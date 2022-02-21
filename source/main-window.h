@@ -5,6 +5,7 @@
 #include <string>
 #include "pf-data.h"
 #include "archetype-table.h"
+#include "../resources/icons/d20-Normal.xpm"
 
 class MainWindow : public wxFrame {
   private:

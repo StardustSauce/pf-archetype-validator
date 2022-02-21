@@ -3,7 +3,8 @@
 MainWindow::MainWindow(const wxString& title, int width, int height)
   : wxFrame(nullptr, wxID_ANY, title, wxDefaultPosition, wxSize(width, height)) {
   SetBackgroundColour(wxSystemSettings::GetColour(wxSYS_COLOUR_WINDOW));
-  
+  SetIcon(d20_Normal_xpm);
+
   m_MainPanel = new wxPanel(this);
   m_TopPanel = new wxPanel(m_MainPanel);
   m_MiddlePanel = new wxPanel(m_MainPanel);
@@ -13,9 +14,9 @@ MainWindow::MainWindow(const wxString& title, int width, int height)
   m_ShowHidden = new wxCheckBox(m_TopPanel, wxID_ANY, "Show Hidden", wxDefaultPosition, wxDefaultSize, wxALIGN_RIGHT);
 
   m_ClassDropdown = new wxComboBox(
-    m_MainPanel,
+    m_TopPanel,
     wxID_ANY,
-    wxT("Select a class..."),
+    "Select a class...",
     wxDefaultPosition,
     wxDefaultSize,
     GetClassList(),
@@ -51,15 +52,16 @@ MainWindow::MainWindow(const wxString& title, int width, int height)
   wxBoxSizer* topSizer = new wxBoxSizer(wxHORIZONTAL);
   topSizer->Add(m_ArchetypeLabel, 0, wxALIGN_BOTTOM);
   topSizer->AddStretchSpacer();
-  topSizer->Add(m_ShowHidden, 0, wxRIGHT | wxALIGN_CENTER_VERTICAL, 5);
+  topSizer->Add(m_ShowHidden, 0, wxALIGN_CENTER_VERTICAL);
+  topSizer->AddSpacer(5);
   topSizer->Add(m_ClassDropdown, 0);
   topSizer->SetSizeHints(this);
   m_TopPanel->SetSizerAndFit(topSizer);
 
   wxBoxSizer* middleSizer = new wxBoxSizer(wxHORIZONTAL);
-  middleSizer->Add(m_CustomClassLabel, 1, wxALIGN_BOTTOM);
+  middleSizer->Add(m_CustomClassLabel, 0, wxALIGN_BOTTOM);
   middleSizer->AddStretchSpacer();
-  middleSizer->Add(m_TransferButton, 0);
+  middleSizer->Add(m_TransferButton, 0, wxEXPAND);
   middleSizer->SetSizeHints(this);
   m_MiddlePanel->SetSizerAndFit(middleSizer);
 
@@ -71,11 +73,14 @@ MainWindow::MainWindow(const wxString& title, int width, int height)
   m_SelectedArchetypes->Bind(wxEVT_LIST_ITEM_SELECTED, &MainWindow::OnSelectAddedArchetype, this);
   m_SelectedArchetypes->Bind(wxEVT_LIST_ITEM_DESELECTED, &MainWindow::OnDeselectArchetype, this);
 
-  // Rezise window to be less ugly
-  SetMinSize(wxSize(600, GetSize().GetY()));
+  // Set Show Hidden to true by default
+  const bool defaultShowHidden = true;
+  m_ShowHidden->SetValue(defaultShowHidden);
+  m_ArchetypeTable->SetShowHidden(defaultShowHidden);
 
-  // Center the window on the screen.
+  // Center the window on the screen and Maximize.
   Centre();
+  Maximize(true);
 }
 
 void MainWindow::OnShowHiddenToggle(wxCommandEvent& event) {
@@ -102,10 +107,14 @@ void MainWindow::OnClassDropdownClick(wxCommandEvent& event) {
     const PfClass* list = &PfData::CLASSES.at("Summoner");
     m_ArchetypeTable->SetSelectedClass(list, true);
     m_SelectedArchetypes->SetSelectedClass(list, false);
+    m_SelectedArchetypes->SetColumnWidth(0, m_ArchetypeTable->GetColumnWidth(0));
+    m_SelectedArchetypes->RecalculateSize();
   } else {
     const PfClass* list = &PfData::CLASSES.at((std::string) event.GetString());
     m_ArchetypeTable->SetSelectedClass(list, true);
     m_SelectedArchetypes->SetSelectedClass(list, false);
+    m_SelectedArchetypes->SetColumnWidth(0, m_ArchetypeTable->GetColumnWidth(0));
+    m_SelectedArchetypes->RecalculateSize();
   }
   event.Skip();
 }
@@ -145,6 +154,8 @@ void MainWindow::OnAddArchetype(wxCommandEvent& event) {
   m_SelectedArchetypes->RecalculateSize();
 
   m_ArchetypeTable->Select(m_ArchetypeTable->GetFirstSelected(), false);
+  m_ArchetypeTable->Refresh();
+  m_SelectedArchetypes->Refresh();
   SetButtonStatus(DISABLED);
   event.Skip();
 }
@@ -158,6 +169,8 @@ void MainWindow::OnRemoveArchetype(wxCommandEvent& event) {
   m_SelectedArchetypes->RecalculateSize();
 
   m_SelectedArchetypes->Select(m_SelectedArchetypes->GetFirstSelected(), false);
+  m_ArchetypeTable->Refresh();
+  m_SelectedArchetypes->Refresh();
   SetButtonStatus(DISABLED);
   event.Skip();
 }

@@ -25,6 +25,7 @@ class ArchetypeTable : public wxListView {
   // function declarations
   public:
     ArchetypeTable(wxWindow* parent, bool showHeader);
+    int Size() const;
     bool GetShowHidden() const;
     const Archetype* GetArchetype(int position) const;
     DisplayStatus GetDisplayStatus(int position) const;
