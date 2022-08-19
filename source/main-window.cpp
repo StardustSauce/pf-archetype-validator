@@ -74,7 +74,7 @@ MainWindow::MainWindow(const wxString& title, int width, int height)
   m_SelectedArchetypes->Bind(wxEVT_LIST_ITEM_DESELECTED, &MainWindow::OnDeselectArchetype, this);
 
   // Set Show Hidden to true by default
-  const bool defaultShowHidden = true;
+  const bool defaultShowHidden = false;
   m_ShowHidden->SetValue(defaultShowHidden);
   m_ArchetypeTable->SetShowHidden(defaultShowHidden);
 

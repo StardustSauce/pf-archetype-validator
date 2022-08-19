@@ -27,7 +27,7 @@ def strip_iterative(feature_list):
       corrected.append(raw_feature)
   return corrected
 
-file_list = os.listdir("resources")
+file_list = os.listdir(os.path.join("resources", "classes"))
 file_list.sort()
 
 
@@ -46,7 +46,7 @@ classes = []
 for file in file_list:
     class_string = ["    {" + f"\"{string.capwords(file[:-4])}\", PfClass("]
 
-    with open(os.path.join("resources", file), "r") as f:
+    with open(os.path.join("resources", "classes", file), "r") as f:
       content = f.readlines();
     features = [f"{x.strip()}" for x in content[0].split(",")[1:]]
     features = strip_iterative(features)

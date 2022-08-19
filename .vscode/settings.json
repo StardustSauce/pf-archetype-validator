@@ -22,6 +22,8 @@
     "stdexcept": "cpp",
     "tuple": "cpp",
     "type_traits": "cpp",
-    "utility": "cpp"
-  }
+    "utility": "cpp",
+    "cerrno": "cpp",
+  },
+  "C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools"
 }
